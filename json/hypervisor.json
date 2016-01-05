@@ -1,0 +1,10 @@
+{
+    "hypervisors": [
+        {
+            "hypervisor_hostname": "pvm038.ihep.ac.cn",
+            "id": 1,
+            "state": "up",
+            "status": "enabled"
+        }
+    ]
+}

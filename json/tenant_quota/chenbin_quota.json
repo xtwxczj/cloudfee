@@ -1,0 +1,17 @@
+{
+    "quota_set": {
+        "cores": 3,
+        "fixed_ips": -1,
+        "floating_ips": 10,
+        "id": "chenbin",
+        "injected_file_content_bytes": 10240,
+        "injected_file_path_bytes": 255,
+        "injected_files": 5,
+        "instances": 3,
+        "key_pairs": 100,
+        "metadata_items": 128,
+        "ram": 15000,
+        "security_group_rules": 20,
+        "security_groups": 10
+    }
+}

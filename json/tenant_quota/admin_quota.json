@@ -1,0 +1,17 @@
+{
+    "quota_set": {
+        "cores": 300,
+        "fixed_ips": 10,
+        "floating_ips": 10,
+        "id": "admin",
+        "injected_file_content_bytes": 1024000,
+        "injected_file_path_bytes": 255,
+        "injected_files": 300,
+        "instances": 300,
+        "key_pairs": 100,
+        "metadata_items": 128,
+        "ram": 5120000,
+        "security_group_rules": 20,
+        "security_groups": 10
+    }
+}

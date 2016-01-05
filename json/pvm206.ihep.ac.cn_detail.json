@@ -1,0 +1,175 @@
+{
+    "host": [
+        {
+            "resource": {
+                "cpu": 32,
+                "disk_gb": 892,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 128894,
+                "project": "(total)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 24,
+                "disk_gb": 910,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 98816,
+                "project": "(used_now)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 24,
+                "disk_gb": 910,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 98304,
+                "project": "(used_max)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "lixy"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 2,
+                "disk_gb": 80,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 8192,
+                "project": "jiangxw"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "wanghongxin"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "weizc"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "anff"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 3,
+                "disk_gb": 120,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 12288,
+                "project": "admin"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 2,
+                "disk_gb": 50,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 8192,
+                "project": "kanwx"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "zhuhy"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "huangtm"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "zhangyao"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 3,
+                "disk_gb": 120,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 12288,
+                "project": "liushenghua"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 20,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "liubj"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 80,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "xuchao"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "qianxl"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "sunxl"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 3,
+                "disk_gb": 80,
+                "host": "pvm206.ihep.ac.cn",
+                "memory_mb": 12288,
+                "project": "wanglu"
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "host": [
+        {
+            "resource": {
+                "cpu": 16,
+                "disk_gb": 250,
+                "host": "pvm035.ihep.ac.cn",
+                "memory_mb": 64303,
+                "project": "(total)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 5,
+                "disk_gb": 200,
+                "host": "pvm035.ihep.ac.cn",
+                "memory_mb": 20992,
+                "project": "(used_now)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 5,
+                "disk_gb": 200,
+                "host": "pvm035.ihep.ac.cn",
+                "memory_mb": 20480,
+                "project": "(used_max)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm035.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "zhaoxh"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 2,
+                "disk_gb": 40,
+                "host": "pvm035.ihep.ac.cn",
+                "memory_mb": 8192,
+                "project": "zengtx"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 80,
+                "host": "pvm035.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "lick"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm035.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "youxh"
+            }
+        }
+    ]
+}

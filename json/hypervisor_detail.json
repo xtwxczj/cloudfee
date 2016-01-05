@@ -1,0 +1,28 @@
+{
+    "hypervisor": {
+        "cpu_info": "{\"vendor\": \"Intel\", \"model\": \"SandyBridge\", \"arch\": \"x86_64\", \"features\": [\"ssse3\", \"pge\", \"avx\", \"clflush\", \"sep\", \"syscall\", \"vme\", \"dtes64\", \"invpcid\", \"msr\", \"sse\", \"xsave\", \"vmx\", \"erms\", \"xtpr\", \"cmov\", \"tsc\", \"smep\", \"pbe\", \"est\", \"pat\", \"monitor\", \"smx\", \"lm\", \"abm\", \"nx\", \"fxsr\", \"tm\", \"sse4.1\", \"pae\", \"sse4.2\", \"pclmuldq\", \"acpi\", \"fma\", \"tsc-deadline\", \"popcnt\", \"mmx\", \"osxsave\", \"cx8\", \"mce\", \"mtrr\", \"rdtscp\", \"ht\", \"dca\", \"lahf_lm\", \"pdcm\", \"mca\", \"pdpe1gb\", \"apic\", \"fsgsbase\", \"f16c\", \"pse\", \"ds\", \"invtsc\", \"pni\", \"tm2\", \"avx2\", \"aes\", \"sse2\", \"ss\", \"bmi1\", \"bmi2\", \"pcid\", \"de\", \"fpu\", \"cx16\", \"pse36\", \"ds_cpl\", \"movbe\", \"rdrand\", \"x2apic\"], \"topology\": {\"cores\": 8, \"threads\": 2, \"sockets\": 1}}",
+        "current_workload": 0,
+        "disk_available_least": -550,
+        "free_disk_gb": -320,
+        "free_ram_mb": 10381,
+        "host_ip": "192.168.81.38",
+        "hypervisor_hostname": "pvm038.ihep.ac.cn",
+        "hypervisor_type": "QEMU",
+        "hypervisor_version": 1005003,
+        "id": 1,
+        "local_gb": 200,
+        "local_gb_used": 520,
+        "memory_mb": 64141,
+        "memory_mb_used": 53760,
+        "running_vms": 18,
+        "service": {
+            "disabled_reason": "None",
+            "host": "pvm038.ihep.ac.cn",
+            "id": 6
+        },
+        "state": "up",
+        "status": "enabled",
+        "vcpus": 32,
+        "vcpus_used": 26
+    }
+}

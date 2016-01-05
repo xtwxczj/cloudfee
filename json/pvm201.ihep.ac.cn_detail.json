@@ -1,0 +1,211 @@
+{
+    "host": [
+        {
+            "resource": {
+                "cpu": 32,
+                "disk_gb": 892,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 128894,
+                "project": "(total)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 25,
+                "disk_gb": 890,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 102912,
+                "project": "(used_now)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 25,
+                "disk_gb": 890,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 102400,
+                "project": "(used_max)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "lixy"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "gongli"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 2,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 8192,
+                "project": "jihf"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 3,
+                "disk_gb": 50,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 12288,
+                "project": "admin"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "zhangjiajia"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "cenwr"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "lintao"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "duanz"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "yuanmy"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "huangql"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 80,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "mamm"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "jyliu"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "chengyp"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "luzg"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 2,
+                "disk_gb": 80,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 8192,
+                "project": "wangyl"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "wangxinhua"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "sunxl"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "hejl"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 2,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 8192,
+                "project": "liul"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm201.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "zhuangk"
+            }
+        }
+    ]
+}

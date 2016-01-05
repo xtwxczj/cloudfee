@@ -1,0 +1,1084 @@
+{
+    "tenant_usages": [
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zhangxuan",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "xiyingzhang",
+            "total_hours": 23.16403584444445,
+            "total_local_gb_usage": 926.5614337777778,
+            "total_memory_mb_usage": 94879.89081884446,
+            "total_vcpus_usage": 23.16403584444445
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "lintao",
+            "total_hours": 628.5565621,
+            "total_local_gb_usage": 25142.262483999995,
+            "total_memory_mb_usage": 2574567.6783616,
+            "total_vcpus_usage": 628.5565621
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zhaozc",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 9428.348431499999,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "futt",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "fangx",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "juxd",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "wangxiaojie",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "liushenghua",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zhangyao",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zoujh",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 10475.942701666667,
+            "total_memory_mb_usage": 1716378.4522410666,
+            "total_vcpus_usage": 419.03770806666665
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "qianxl",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "libh",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 10475.942701666667,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "liubj",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 2095.188540333333,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "lijin",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "guorp",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "chyd",
+            "total_hours": 1676.1508322666666,
+            "total_local_gb_usage": 73331.59891166666,
+            "total_memory_mb_usage": 7294608.422024533,
+            "total_vcpus_usage": 1780.9102592833333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "luzg",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "hejl",
+            "total_hours": 628.5565621,
+            "total_local_gb_usage": 25142.262483999995,
+            "total_memory_mb_usage": 2574567.6783616,
+            "total_vcpus_usage": 628.5565621
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "maqm",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zhangjin",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "wangpanfeng",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "like",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "wangxukun",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "biyujiang",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "shihy",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 20951.885403333334,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "lixy",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "wanghongxin",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "gongli",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "wangxq",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 2095.188540333333,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "lihaibo",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zhangjiajia",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "liuyaqing",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 5237.971350833333,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "ligj",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "qinxb",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "wangyl",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "wangxinhua",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zhuangk",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "anff",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zengshan",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zhengw",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "wangcong",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "suob",
+            "total_hours": 523.7971350833333,
+            "total_local_gb_usage": 20951.88540333333,
+            "total_memory_mb_usage": 2145473.065301333,
+            "total_vcpus_usage": 523.7971350833333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "luxh",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 9428.348431499999,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "xiaohl",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zengtx",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "lingchen",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "hulf",
+            "total_hours": 523.7971350833333,
+            "total_local_gb_usage": 20951.88540333333,
+            "total_memory_mb_usage": 4290946.130602666,
+            "total_vcpus_usage": 2095.188540333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "chengzj",
+            "total_hours": 523.7971350833333,
+            "total_local_gb_usage": 20951.88540333333,
+            "total_memory_mb_usage": 2145473.065301333,
+            "total_vcpus_usage": 523.7971350833333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "yuet",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "duanz",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "liyk",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "xuchao",
+            "total_hours": 209.8280207,
+            "total_local_gb_usage": 16786.241656,
+            "total_memory_mb_usage": 859455.5727872,
+            "total_vcpus_usage": 209.8280207
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "yinglv",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "weizc",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "admin",
+            "total_hours": 2618.9856754166653,
+            "total_local_gb_usage": 89045.51296416669,
+            "total_memory_mb_usage": 11156459.939566927,
+            "total_vcpus_usage": 2723.745102433332
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "gushengdong",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zhangkun",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 25142.262484,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "baoqi",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "xuq",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "tiansk",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "shenpx",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "jiac",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 16761.508322666665,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zwang",
+            "total_hours": 0.2886111111111111,
+            "total_local_gb_usage": 11.544444444444444,
+            "total_memory_mb_usage": 1182.151111111111,
+            "total_vcpus_usage": 0.2886111111111111
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zhangyi",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 10475.942701666665,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zhangyu213",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "tangzhch",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zhaoxh",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "kangxsh",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "yangms",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "guoyingxiao",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "mamm",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 13618.725512166666,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "hem",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "gaobo",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "jiangxw",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "huangls",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "huangtm",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zhangxm",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 2095.188540333333,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "chenyuehui",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "mengwang",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 5237.971350833333,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "sunxl",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "kanwx",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 5237.971350833333,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "fanrr",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 5237.971350833333,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "chenxl",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "sunzy",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zhaojie",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "duran",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "chenxu",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "yuanwl",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "lick",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 16761.508322666665,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "guosm",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "youxh",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "chengyp",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "xizw",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "yuanwb",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "jihf",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "chenjiong",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 5237.971350833333,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "hxwang",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "maym",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 5237.971350833333,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "huangql",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 10475.942701666665,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "shanly",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "jyliu",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "wuwj",
+            "total_hours": 419.03770806666665,
+            "total_local_gb_usage": 16761.508322666665,
+            "total_memory_mb_usage": 2574567.6783616,
+            "total_vcpus_usage": 838.0754161333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "wanglu",
+            "total_hours": 523.7971350833333,
+            "total_local_gb_usage": 20951.88540333333,
+            "total_memory_mb_usage": 2574567.6783616,
+            "total_vcpus_usage": 628.5565621
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "yanmy",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "syf",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "cenwr",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "lidengjie",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "mjchen",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 6285.565621,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "yant",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 838.0754161333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "liuyi",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zhuhy",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "huqb",
+            "total_hours": 601.9347484777777,
+            "total_local_gb_usage": 24077.389939111108,
+            "total_memory_mb_usage": 2465524.7297649775,
+            "total_vcpus_usage": 601.9347484777777
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "kanbw",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "masi",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "yuanmy",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 429094.61306026665,
+            "total_vcpus_usage": 104.75942701666666
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "shijy",
+            "total_hours": 117.41759596666667,
+            "total_local_gb_usage": 4696.703838666666,
+            "total_memory_mb_usage": 480942.47307946667,
+            "total_vcpus_usage": 117.41759596666667
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "guangshl",
+            "total_hours": 314.27828105,
+            "total_local_gb_usage": 12571.131242,
+            "total_memory_mb_usage": 1287283.8391808,
+            "total_vcpus_usage": 314.27828105
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "zhaoyl",
+            "total_hours": 209.51885403333333,
+            "total_local_gb_usage": 8380.754161333332,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        },
+        {
+            "start": "2016-01-01T00:00:00.359178",
+            "stop": "2016-01-05T08:45:28.952904",
+            "tenant_id": "liul",
+            "total_hours": 104.75942701666666,
+            "total_local_gb_usage": 4190.377080666666,
+            "total_memory_mb_usage": 858189.2261205333,
+            "total_vcpus_usage": 209.51885403333333
+        }
+    ]
+}

@@ -1,0 +1,202 @@
+{
+    "flavors": [
+        {
+            "OS-FLV-DISABLED:disabled": false,
+            "OS-FLV-EXT-DATA:ephemeral": 0,
+            "disk": 40,
+            "id": "03144859-50bf-4696-bcaa-48a6d82e320f",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/flavors/03144859-50bf-4696-bcaa-48a6d82e320f",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/flavors/03144859-50bf-4696-bcaa-48a6d82e320f",
+                    "rel": "bookmark"
+                }
+            ],
+            "name": "cpu-1_ram-4G_disk-40G",
+            "os-flavor-access:is_public": true,
+            "ram": 4096,
+            "rxtx_factor": 1.0,
+            "swap": "",
+            "vcpus": 1
+        },
+        {
+            "OS-FLV-DISABLED:disabled": false,
+            "OS-FLV-EXT-DATA:ephemeral": 0,
+            "disk": 50,
+            "id": "0780cda0-3a97-458e-a5cc-0a2f7b7cda58",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/flavors/0780cda0-3a97-458e-a5cc-0a2f7b7cda58",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/flavors/0780cda0-3a97-458e-a5cc-0a2f7b7cda58",
+                    "rel": "bookmark"
+                }
+            ],
+            "name": "cpu-2_ram-8G_disk-50G",
+            "os-flavor-access:is_public": true,
+            "ram": 8192,
+            "rxtx_factor": 1.0,
+            "swap": "",
+            "vcpus": 2
+        },
+        {
+            "OS-FLV-DISABLED:disabled": false,
+            "OS-FLV-EXT-DATA:ephemeral": 0,
+            "disk": 20,
+            "id": "59a39ec6-8e11-4512-9e0d-771b74a54683",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/flavors/59a39ec6-8e11-4512-9e0d-771b74a54683",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/flavors/59a39ec6-8e11-4512-9e0d-771b74a54683",
+                    "rel": "bookmark"
+                }
+            ],
+            "name": "cpu-2_ram-4G_disk-20G",
+            "os-flavor-access:is_public": true,
+            "ram": 4096,
+            "rxtx_factor": 1.0,
+            "swap": "",
+            "vcpus": 1
+        },
+        {
+            "OS-FLV-DISABLED:disabled": false,
+            "OS-FLV-EXT-DATA:ephemeral": 0,
+            "disk": 40,
+            "id": "60ca0355-448f-4986-bfac-b9c5b3cb23a7",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/flavors/60ca0355-448f-4986-bfac-b9c5b3cb23a7",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/flavors/60ca0355-448f-4986-bfac-b9c5b3cb23a7",
+                    "rel": "bookmark"
+                }
+            ],
+            "name": "cpu-2_ram-8G_disk-40G",
+            "os-flavor-access:is_public": true,
+            "ram": 8192,
+            "rxtx_factor": 1.0,
+            "swap": "",
+            "vcpus": 2
+        },
+        {
+            "OS-FLV-DISABLED:disabled": false,
+            "OS-FLV-EXT-DATA:ephemeral": 0,
+            "disk": 40,
+            "id": "962a0f86-81c1-459c-8b42-5d1f99670202",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/flavors/962a0f86-81c1-459c-8b42-5d1f99670202",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/flavors/962a0f86-81c1-459c-8b42-5d1f99670202",
+                    "rel": "bookmark"
+                }
+            ],
+            "name": "cpu-4_ram-24_disk-40G",
+            "os-flavor-access:is_public": false,
+            "ram": 25000,
+            "rxtx_factor": 1.0,
+            "swap": "",
+            "vcpus": 4
+        },
+        {
+            "OS-FLV-DISABLED:disabled": false,
+            "OS-FLV-EXT-DATA:ephemeral": 0,
+            "disk": 80,
+            "id": "c3b6f3b5-509d-4d87-9792-1ee086480286",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/flavors/c3b6f3b5-509d-4d87-9792-1ee086480286",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/flavors/c3b6f3b5-509d-4d87-9792-1ee086480286",
+                    "rel": "bookmark"
+                }
+            ],
+            "name": "cpu-1_ram-4G_disk-80G",
+            "os-flavor-access:is_public": true,
+            "ram": 4096,
+            "rxtx_factor": 1.0,
+            "swap": "",
+            "vcpus": 1
+        },
+        {
+            "OS-FLV-DISABLED:disabled": false,
+            "OS-FLV-EXT-DATA:ephemeral": 0,
+            "disk": 20,
+            "id": "c65d8dce-9ecb-42e8-a7e5-ceba190aa537",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/flavors/c65d8dce-9ecb-42e8-a7e5-ceba190aa537",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/flavors/c65d8dce-9ecb-42e8-a7e5-ceba190aa537",
+                    "rel": "bookmark"
+                }
+            ],
+            "name": "cpu-4_ram-4G_disk-20G",
+            "os-flavor-access:is_public": true,
+            "ram": 4096,
+            "rxtx_factor": 1.0,
+            "swap": "",
+            "vcpus": 4
+        },
+        {
+            "OS-FLV-DISABLED:disabled": false,
+            "OS-FLV-EXT-DATA:ephemeral": 0,
+            "disk": 20,
+            "id": "e633cfaa-1b19-4045-ad73-bb5d97e3f18e",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/flavors/e633cfaa-1b19-4045-ad73-bb5d97e3f18e",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/flavors/e633cfaa-1b19-4045-ad73-bb5d97e3f18e",
+                    "rel": "bookmark"
+                }
+            ],
+            "name": "cpu-1_ram-4G_disk-20G",
+            "os-flavor-access:is_public": true,
+            "ram": 4096,
+            "rxtx_factor": 1.0,
+            "swap": "",
+            "vcpus": 1
+        },
+        {
+            "OS-FLV-DISABLED:disabled": false,
+            "OS-FLV-EXT-DATA:ephemeral": 0,
+            "disk": 40,
+            "id": "ea3cd34d-49fb-474d-a3a9-af8f85f6f9b8",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/flavors/ea3cd34d-49fb-474d-a3a9-af8f85f6f9b8",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/flavors/ea3cd34d-49fb-474d-a3a9-af8f85f6f9b8",
+                    "rel": "bookmark"
+                }
+            ],
+            "name": "cpu-4_ram-8G-disk-40G",
+            "os-flavor-access:is_public": true,
+            "ram": 8192,
+            "rxtx_factor": 1.0,
+            "swap": "",
+            "vcpus": 4
+        }
+    ]
+}

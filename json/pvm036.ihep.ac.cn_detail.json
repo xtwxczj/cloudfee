@@ -1,0 +1,85 @@
+{
+    "host": [
+        {
+            "resource": {
+                "cpu": 16,
+                "disk_gb": 250,
+                "host": "pvm036.ihep.ac.cn",
+                "memory_mb": 64303,
+                "project": "(total)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 8,
+                "disk_gb": 320,
+                "host": "pvm036.ihep.ac.cn",
+                "memory_mb": 33280,
+                "project": "(used_now)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 8,
+                "disk_gb": 320,
+                "host": "pvm036.ihep.ac.cn",
+                "memory_mb": 32768,
+                "project": "(used_max)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 80,
+                "host": "pvm036.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "tiansk"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 2,
+                "disk_gb": 40,
+                "host": "pvm036.ihep.ac.cn",
+                "memory_mb": 8192,
+                "project": "yinglv"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm036.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "chengzj"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm036.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "guoyingxiao"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 2,
+                "disk_gb": 80,
+                "host": "pvm036.ihep.ac.cn",
+                "memory_mb": 8192,
+                "project": "huqb"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm036.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "gaobo"
+            }
+        }
+    ]
+}

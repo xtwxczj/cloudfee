@@ -1,0 +1,85 @@
+{
+    "host": [
+        {
+            "resource": {
+                "cpu": 16,
+                "disk_gb": 250,
+                "host": "pvm040.ihep.ac.cn",
+                "memory_mb": 64302,
+                "project": "(total)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 8,
+                "disk_gb": 290,
+                "host": "pvm040.ihep.ac.cn",
+                "memory_mb": 33280,
+                "project": "(used_now)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 8,
+                "disk_gb": 290,
+                "host": "pvm040.ihep.ac.cn",
+                "memory_mb": 32768,
+                "project": "(used_max)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm040.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "lingchen"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm040.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "lijin"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm040.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "lihaibo"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 2,
+                "disk_gb": 50,
+                "host": "pvm040.ihep.ac.cn",
+                "memory_mb": 8192,
+                "project": "maym"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 2,
+                "disk_gb": 80,
+                "host": "pvm040.ihep.ac.cn",
+                "memory_mb": 8192,
+                "project": "chyd"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm040.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "hem"
+            }
+        }
+    ]
+}

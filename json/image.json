@@ -1,0 +1,479 @@
+{
+    "images": [
+        {
+            "id": "ca3f6e64-54c2-4c6a-b965-d11457d90d02",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/ca3f6e64-54c2-4c6a-b965-d11457d90d02",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/ca3f6e64-54c2-4c6a-b965-d11457d90d02",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/ca3f6e64-54c2-4c6a-b965-d11457d90d02",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "TEST-Win7-40G"
+        },
+        {
+            "id": "09bd5125-e65c-485a-ae39-04e7fe7f582d",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/09bd5125-e65c-485a-ae39-04e7fe7f582d",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/09bd5125-e65c-485a-ae39-04e7fe7f582d",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/09bd5125-e65c-485a-ae39-04e7fe7f582d",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "TEST-ubuntu14.04"
+        },
+        {
+            "id": "0ee461a2-aae6-4ba3-ac9a-e0408974de16",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/0ee461a2-aae6-4ba3-ac9a-e0408974de16",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/0ee461a2-aae6-4ba3-ac9a-e0408974de16",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/0ee461a2-aae6-4ba3-ac9a-e0408974de16",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "TEST-SL71-40G"
+        },
+        {
+            "id": "d0b6559d-9017-406d-9fc0-5e8691d1f865",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/d0b6559d-9017-406d-9fc0-5e8691d1f865",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/d0b6559d-9017-406d-9fc0-5e8691d1f865",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/d0b6559d-9017-406d-9fc0-5e8691d1f865",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "TEST-SL71-40G_old"
+        },
+        {
+            "id": "dfa902ea-f06d-4567-b035-058351fdd762",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/dfa902ea-f06d-4567-b035-058351fdd762",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/dfa902ea-f06d-4567-b035-058351fdd762",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/dfa902ea-f06d-4567-b035-058351fdd762",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "UI-SL65-64-WN"
+        },
+        {
+            "id": "646c2fc3-0929-46cd-ab70-57da6bb2be48",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/646c2fc3-0929-46cd-ab70-57da6bb2be48",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/646c2fc3-0929-46cd-ab70-57da6bb2be48",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/646c2fc3-0929-46cd-ab70-57da6bb2be48",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "TEST-CMS"
+        },
+        {
+            "id": "0c3583d5-3d45-43e2-a090-945ca8059404",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/0c3583d5-3d45-43e2-a090-945ca8059404",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/0c3583d5-3d45-43e2-a090-945ca8059404",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/0c3583d5-3d45-43e2-a090-945ca8059404",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "WN-SL65-64-20G-20150318"
+        },
+        {
+            "id": "70fde7fb-e6c2-46c6-9c8d-e0ca0a9feb20",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/70fde7fb-e6c2-46c6-9c8d-e0ca0a9feb20",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/70fde7fb-e6c2-46c6-9c8d-e0ca0a9feb20",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/70fde7fb-e6c2-46c6-9c8d-e0ca0a9feb20",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "TEST-W2008-20G"
+        },
+        {
+            "id": "d8ad22ac-c801-45c3-8fb6-56b6fe52a1b8",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/d8ad22ac-c801-45c3-8fb6-56b6fe52a1b8",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/d8ad22ac-c801-45c3-8fb6-56b6fe52a1b8",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/d8ad22ac-c801-45c3-8fb6-56b6fe52a1b8",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "UI-SL55-64-20G"
+        },
+        {
+            "id": "69c2ca26-8c5d-48f3-9d8e-d3b5855d3951",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/69c2ca26-8c5d-48f3-9d8e-d3b5855d3951",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/69c2ca26-8c5d-48f3-9d8e-d3b5855d3951",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/69c2ca26-8c5d-48f3-9d8e-d3b5855d3951",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "UI-SL65-64-20G"
+        },
+        {
+            "id": "c67a57e6-5207-4193-932c-c403cbe93512",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/c67a57e6-5207-4193-932c-c403cbe93512",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/c67a57e6-5207-4193-932c-c403cbe93512",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/c67a57e6-5207-4193-932c-c403cbe93512",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "TEST-SL7-64-40G"
+        },
+        {
+            "id": "5203f8c5-43f2-4693-a871-146c80046eeb",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/5203f8c5-43f2-4693-a871-146c80046eeb",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/5203f8c5-43f2-4693-a871-146c80046eeb",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/5203f8c5-43f2-4693-a871-146c80046eeb",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "TEST-SL65-64-40G-astro"
+        },
+        {
+            "id": "240a4807-a4ff-4d1a-ad55-4ea011c09339",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/240a4807-a4ff-4d1a-ad55-4ea011c09339",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/240a4807-a4ff-4d1a-ad55-4ea011c09339",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/240a4807-a4ff-4d1a-ad55-4ea011c09339",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "TEST-SL65-32-40G"
+        },
+        {
+            "id": "ae009f66-eadc-4ae8-ab2a-cd49f0cc7700",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/ae009f66-eadc-4ae8-ab2a-cd49f0cc7700",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/ae009f66-eadc-4ae8-ab2a-cd49f0cc7700",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/ae009f66-eadc-4ae8-ab2a-cd49f0cc7700",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "TEST-SL65-64-opstk-ice"
+        },
+        {
+            "id": "e66c6a82-caa2-43f5-9b2c-c0085b750319",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/e66c6a82-caa2-43f5-9b2c-c0085b750319",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/e66c6a82-caa2-43f5-9b2c-c0085b750319",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/e66c6a82-caa2-43f5-9b2c-c0085b750319",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "opstk-ice-1"
+        },
+        {
+            "id": "890edf01-2908-48eb-86df-d8865e00a37a",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/890edf01-2908-48eb-86df-d8865e00a37a",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/890edf01-2908-48eb-86df-d8865e00a37a",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/890edf01-2908-48eb-86df-d8865e00a37a",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "Win7-40G-OLD"
+        },
+        {
+            "id": "d4c7ebb7-5509-4c9d-bbb2-d872d44bdebd",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/d4c7ebb7-5509-4c9d-bbb2-d872d44bdebd",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/d4c7ebb7-5509-4c9d-bbb2-d872d44bdebd",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/d4c7ebb7-5509-4c9d-bbb2-d872d44bdebd",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "TEST-SL65-64-40G"
+        },
+        {
+            "id": "20490c13-9bd8-4c2c-b574-34d25a31595b",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/20490c13-9bd8-4c2c-b574-34d25a31595b",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/20490c13-9bd8-4c2c-b574-34d25a31595b",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/20490c13-9bd8-4c2c-b574-34d25a31595b",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "TEST-SL55-64-40G"
+        },
+        {
+            "id": "9d8cdbce-e4de-481f-b041-a260522ceffb",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/9d8cdbce-e4de-481f-b041-a260522ceffb",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/9d8cdbce-e4de-481f-b041-a260522ceffb",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/9d8cdbce-e4de-481f-b041-a260522ceffb",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "TEST-SL65-64-20G"
+        },
+        {
+            "id": "3fb74fbb-da2c-4419-908e-34eef9af9b5f",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/3fb74fbb-da2c-4419-908e-34eef9af9b5f",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/3fb74fbb-da2c-4419-908e-34eef9af9b5f",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/3fb74fbb-da2c-4419-908e-34eef9af9b5f",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "WN-SL65-64-20G"
+        },
+        {
+            "id": "42133e54-9273-47a0-931c-5b51c4246d73",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/42133e54-9273-47a0-931c-5b51c4246d73",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/42133e54-9273-47a0-931c-5b51c4246d73",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/42133e54-9273-47a0-931c-5b51c4246d73",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "UI-SL58-64-20G"
+        },
+        {
+            "id": "44987860-8a8c-457f-8360-451346681d0c",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/44987860-8a8c-457f-8360-451346681d0c",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/44987860-8a8c-457f-8360-451346681d0c",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/44987860-8a8c-457f-8360-451346681d0c",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "UI-SL55-64-20G-1"
+        },
+        {
+            "id": "57d68311-d5ce-4ed8-85f1-79461c3f78a5",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/57d68311-d5ce-4ed8-85f1-79461c3f78a5",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/57d68311-d5ce-4ed8-85f1-79461c3f78a5",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/57d68311-d5ce-4ed8-85f1-79461c3f78a5",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "UI-SL65-64-20G-bak"
+        },
+        {
+            "id": "64367265-14a5-429f-b18b-b3cd2a63d6c1",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/64367265-14a5-429f-b18b-b3cd2a63d6c1",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/64367265-14a5-429f-b18b-b3cd2a63d6c1",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/64367265-14a5-429f-b18b-b3cd2a63d6c1",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "TEST-SL55-64-Wanglu-20G"
+        },
+        {
+            "id": "0b4509bf-4e42-4ae1-a6bf-3eaf5b7eed8c",
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/images/0b4509bf-4e42-4ae1-a6bf-3eaf5b7eed8c",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/images/0b4509bf-4e42-4ae1-a6bf-3eaf5b7eed8c",
+                    "rel": "bookmark"
+                },
+                {
+                    "href": "http://192.168.81.200:9292/admin/images/0b4509bf-4e42-4ae1-a6bf-3eaf5b7eed8c",
+                    "rel": "alternate",
+                    "type": "application/vnd.openstack.image"
+                }
+            ],
+            "name": "TEST-SL65-64-Wuwj-20G"
+        }
+    ]
+}

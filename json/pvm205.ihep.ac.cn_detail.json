@@ -1,0 +1,157 @@
+{
+    "host": [
+        {
+            "resource": {
+                "cpu": 32,
+                "disk_gb": 863,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 128894,
+                "project": "(total)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 24,
+                "disk_gb": 970,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 98816,
+                "project": "(used_now)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 24,
+                "disk_gb": 970,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 98304,
+                "project": "(used_max)"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 2,
+                "disk_gb": 40,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 8192,
+                "project": "tiansk"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "jiangxw"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "chengzj"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 2,
+                "disk_gb": 80,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 8192,
+                "project": "like"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 80,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "hxwang"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 5,
+                "disk_gb": 160,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 20480,
+                "project": "admin"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "suob"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "yangms"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "guoyingxiao"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 2,
+                "disk_gb": 80,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 8192,
+                "project": "lidengjie"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 3,
+                "disk_gb": 160,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 12288,
+                "project": "chyd"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 2,
+                "disk_gb": 50,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 8192,
+                "project": "mengwang"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 80,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "xuchao"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "lingchen"
+            }
+        }
+    ]
+}
