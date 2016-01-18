@@ -11,19 +11,19 @@
         },
         {
             "resource": {
-                "cpu": 8,
-                "disk_gb": 290,
+                "cpu": 9,
+                "disk_gb": 310,
                 "host": "pvm030.ihep.ac.cn",
-                "memory_mb": 33280,
+                "memory_mb": 37376,
                 "project": "(used_now)"
             }
         },
         {
             "resource": {
-                "cpu": 8,
-                "disk_gb": 290,
+                "cpu": 9,
+                "disk_gb": 310,
                 "host": "pvm030.ihep.ac.cn",
-                "memory_mb": 32768,
+                "memory_mb": 36864,
                 "project": "(used_max)"
             }
         },
@@ -52,6 +52,15 @@
                 "host": "pvm030.ihep.ac.cn",
                 "memory_mb": 8192,
                 "project": "admin"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 20,
+                "host": "pvm030.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "liqiang88"
             }
         },
         {

@@ -1629,79 +1629,61 @@ int vm_history_scan()
 	double vcpu_util = 0;
 	double mem_util = 0;
 	double disk_util = 0;
-	
-	//double disk_device_read_requests = 0;	//Number of read requests
-	//double disk_device_read_requests_rate = 0;//Average rate of read requests
-	//double disk_device_write_requests = 0;	//Number of write requests
-	//double disk_device_write_requests_rate = 0;//Average rate of write requests
-	//double disk_device_read_bytes = 0;		//Volume of reads
-	//double disk_device_read_bytes_rate = 0;//Average rate of reads
-	//double disk_device_write_bytes = 0;		//Volume of writes
-	//double disk_device_write_bytes_rate = 0;//Average rate of writes
-	//double network_incoming_bytes = 0;//Number of incoming bytes
-	//double network_incoming_bytes_rate = 0;//Average rate of incoming bytes
-	//double network_outgoing_bytes = 0;//Number of outgoing bytes
-	//double network_outgoing_bytes_rate = 0;//Average rate of outgoing bytes
-	//double network_incoming_packets = 0;//Number of incoming packets
-	//double network_incoming_packets_rate = 0;//Average rate of incoming packets
-	//double network_outgoing_packets = 0;//Number of outgoing packets
-	//double network_outgoing_packets_rate = 0;//Average rate of outgoing packets
-	
 
-	
+
 	double SumScoreUsed = 0;
 	double SumScoreRecharge = 0;
 
-	
+
 	Json::Reader reader;// 解析json用Json::Reader   
-    Json::Value root; // Json::Value是一种很重要的类型，可以代表任意类型。如int, string, object, array    
-	
+	Json::Value root; // Json::Value是一种很重要的类型，可以代表任意类型。如int, string, object, array    
+
 	std::ifstream is;  
-    is.open (filename, std::ios::binary );    
+	is.open (filename, std::ios::binary );    
 	if (reader.parse(is, root, 0))  
-    {  
-        int server_size = root["servers"].size();  //   
-        for(int i = 0; i < server_size; ++i)  // 遍历数组  
-        {
+	{  
+		int server_size = root["servers"].size();  //   
+		for(int i = 0; i < server_size; ++i)  // 遍历数组  
+		{
 			std::string av_zone = root["servers"][i]["OS-EXT-AZ:availability_zone"].asString();
 			availability_zone = new char[av_zone.length()+1];
 			strcpy(availability_zone,av_zone.c_str());
-			
+
 			std::string hypervisor_hostname = root["servers"][i]["OS-EXT-SRV-ATTR:hypervisor_hostname"].asString();
 			host_domain = new char[hypervisor_hostname.length()+1];
 			strcpy(host_domain,hypervisor_hostname.c_str());
-			
+
 			std::string str_vm_state = root["servers"][i]["OS-EXT-STS:vm_state"].asString();
 			vm_state = new char[str_vm_state.length()+1];
 			strcpy(vm_state,str_vm_state.c_str());
 
 			if(str_vm_state!="error")
 			{
-					
-			std::string launched_at = root["servers"][i]["OS-SRV-USG:launched_at"].asString();
-			created_at = new char[launched_at.length()+1];
-			strcpy(created_at,launched_at.c_str());
-			
-			std::string terminated_at = root["servers"][i]["OS-SRV-USG:terminated_at"].asString();
-			deleted_at = new char[terminated_at.length()+1];
-			strcpy(deleted_at,terminated_at.c_str());
-			
-			std::vector<string> vec = root["servers"][i]["addresses"].getMemberNames();
-			vector<string>::iterator it = vec.begin();
-			//cout<<it<<endl;
-			cout<<*it<<endl;
-			cout<<root["servers"][i]["addresses"][*it][0]["OS-EXT-IPS-MAC:mac_addr"]<<endl;
 
-			cout<<root["servers"][i]["addresses"][*it][0]["OS-EXT-IPS-MAC:mac_addr"].asString().length()<<endl;
-			
-		//	str_mac = root["servers"][i]["addresses"][*it][0]["OS-EXT-IPS-MAC:mac_addr"].asString().c_str();
-			vm_mac = new char[root["servers"][i]["addresses"][*it][0]["OS-EXT-IPS-MAC:mac_addr"].asString().length()+1];
-			strcpy(vm_mac,root["servers"][i]["addresses"][*it][0]["OS-EXT-IPS-MAC:mac_addr"].asString().c_str());
-	
-			std::string str_ip = root["servers"][i]["addresses"][*it][0]["addr"].asString();
-			vm_ip = new char[str_ip.length()+1];
-			strcpy(vm_ip,str_ip.c_str());
-		cout<<"haha"<<endl;		
+				std::string launched_at = root["servers"][i]["OS-SRV-USG:launched_at"].asString();
+				created_at = new char[launched_at.length()+1];
+				strcpy(created_at,launched_at.c_str());
+
+				std::string terminated_at = root["servers"][i]["OS-SRV-USG:terminated_at"].asString();
+				deleted_at = new char[terminated_at.length()+1];
+				strcpy(deleted_at,terminated_at.c_str());
+
+				std::vector<string> vec = root["servers"][i]["addresses"].getMemberNames();
+				vector<string>::iterator it = vec.begin();
+				//cout<<it<<endl;
+				cout<<*it<<endl;
+				cout<<root["servers"][i]["addresses"][*it][0]["OS-EXT-IPS-MAC:mac_addr"]<<endl;
+
+				cout<<root["servers"][i]["addresses"][*it][0]["OS-EXT-IPS-MAC:mac_addr"].asString().length()<<endl;
+
+				//	str_mac = root["servers"][i]["addresses"][*it][0]["OS-EXT-IPS-MAC:mac_addr"].asString().c_str();
+				vm_mac = new char[root["servers"][i]["addresses"][*it][0]["OS-EXT-IPS-MAC:mac_addr"].asString().length()+1];
+				strcpy(vm_mac,root["servers"][i]["addresses"][*it][0]["OS-EXT-IPS-MAC:mac_addr"].asString().c_str());
+
+				std::string str_ip = root["servers"][i]["addresses"][*it][0]["addr"].asString();
+				vm_ip = new char[str_ip.length()+1];
+				strcpy(vm_ip,str_ip.c_str());
+				cout<<"haha"<<endl;		
 			}
 			else
 			{
@@ -1709,7 +1691,7 @@ int vm_history_scan()
 				deleted_at = "null";
 				vm_mac = "null";
 				vm_ip = "null";
-				
+
 			}
 			std::string str_vm_name = root["servers"][i]["name"].asString();
 			vm_name = new char[str_vm_name.length()+1];
@@ -1771,58 +1753,58 @@ int vm_history_scan()
 				strcpy(key,"mem_utility");
 				mem_util=atof(msql1.GetField(key));
 			}
-				
-			
+
+
 			string state(vm_state);
-				if(str_user_name=="admin"&&state=="active")
+			if(str_user_name=="admin"&&state=="active")
+			{
+				memset(cmd, 0, sizeof(cmd));
+				snprintf(cmd,sizeof(cmd), "select * from %s.group_vm_map where vm_name='%s';",database,vm_name);
+				msql1.free_res();
+				msql1.query_select(cmd);
+				if(!msql1.FetchRow()||!msql1.getrecordcount())
 				{
-					memset(cmd, 0, sizeof(cmd));
-					snprintf(cmd,sizeof(cmd), "select * from %s.group_vm_map where vm_name='%s';",database,vm_name);
-					msql1.free_res();
-					msql1.query_select(cmd);
-					if(!msql1.FetchRow()||!msql1.getrecordcount())
-					{
-						
-					}
-					else
-					{
-						strcpy(key,"group_name");
-						group_name = msql1.GetField(key);
-						strcpy(key,"batch");
-						vm_batch = atoi(msql1.GetField(key));
-						strcpy(key,"bonus");
-						bonus = atof(msql1.GetField(key));
-						
-						memset(cmd, 0, sizeof(cmd));
-						snprintf(cmd,sizeof(cmd), "insert into %s.group_vm_history set vm_name='%s',vm_ip='%s',vm_mac='%s',uuid='%s',batch=%d,create_at='%s',delete_at='%s',cells_id='%s',av_zone='%s',image_name='%s',vcpus=%d,mem_mb=%d,disk_gb=%d,user_name='%s',group_name='%s',vcpu_utility=%.2f,mem_utility=%.2f,disk_utility=%.2f,bonus=%.2f,host_name='%s',vm_state='%s',check_at=NOW();",
-						database,vm_name, vm_ip,vm_mac,instance_uuid,vm_batch,created_at, deleted_at,cell_name,availability_zone,image_name, vcpus, memory_mb, disk_gb, vm_username,group_name, vcpu_util,mem_util,disk_util,bonus,host_domain,vm_state);
-						msql2.insert(cmd);
-					}
+
 				}
-				if(str_user_name!="admin")
+				else
 				{
+					strcpy(key,"group_name");
+					group_name = msql1.GetField(key);
+					strcpy(key,"batch");
+					vm_batch = atoi(msql1.GetField(key));
+					strcpy(key,"bonus");
+					bonus = atof(msql1.GetField(key));
+
 					memset(cmd, 0, sizeof(cmd));
-					snprintf(cmd,sizeof(cmd), "select * from %s.vms where uuid='%s';",database,instance_uuid);
-					msql1.free_res();
-					msql1.query_select(cmd);
-					if(!msql1.FetchRow()||!msql1.getrecordcount())
-					{
-						
-					}
-					else
-					{
-						strcpy(key,"bonus");
-						bonus = atof(msql1.GetField(key));
-						
-						memset(cmd, 0, sizeof(cmd));
-						snprintf(cmd,sizeof(cmd), "insert into %s.user_vm_history set vm_name='%s',vm_ip='%s',vm_mac='%s',uuid='%s',create_at='%s',delete_at='%s',cells_id='%s',av_zone='%s',image_name='%s',vcpus=%d,mem_mb=%d,disk_gb=%d,user_name='%s',vcpu_utility=%.2f,mem_utility=%.2f,disk_utility=%.2f,bonus=%.2f,host_name='%s',vm_state='%s',check_at=NOW();",
-						database,vm_name, vm_ip,vm_mac,instance_uuid,created_at, deleted_at,cell_name,availability_zone,image_name, vcpus, memory_mb, disk_gb, vm_username,vcpu_util,mem_util,disk_util,bonus,host_domain,vm_state);
-						msql2.insert(cmd);
-					}
+					snprintf(cmd,sizeof(cmd), "insert into %s.group_vm_history set vm_name='%s',vm_ip='%s',vm_mac='%s',uuid='%s',batch=%d,create_at='%s',delete_at='%s',cells_id='%s',av_zone='%s',image_name='%s',vcpus=%d,mem_mb=%d,disk_gb=%d,user_name='%s',group_name='%s',vcpu_utility=%.2f,mem_utility=%.2f,disk_utility=%.2f,bonus=%.2f,host_name='%s',vm_state='%s',check_at=NOW();",
+							database,vm_name, vm_ip,vm_mac,instance_uuid,vm_batch,created_at, deleted_at,cell_name,availability_zone,image_name, vcpus, memory_mb, disk_gb, vm_username,group_name, vcpu_util,mem_util,disk_util,bonus,host_domain,vm_state);
+					msql2.insert(cmd);
 				}
+			}
+			if(str_user_name!="admin")
+			{
+				memset(cmd, 0, sizeof(cmd));
+				snprintf(cmd,sizeof(cmd), "select * from %s.vms where uuid='%s';",database,instance_uuid);
+				msql1.free_res();
+				msql1.query_select(cmd);
+				if(!msql1.FetchRow()||!msql1.getrecordcount())
+				{
+
+				}
+				else
+				{
+					strcpy(key,"bonus");
+					bonus = atof(msql1.GetField(key));
+
+					memset(cmd, 0, sizeof(cmd));
+					snprintf(cmd,sizeof(cmd), "insert into %s.user_vm_history set vm_name='%s',vm_ip='%s',vm_mac='%s',uuid='%s',create_at='%s',delete_at='%s',cells_id='%s',av_zone='%s',image_name='%s',vcpus=%d,mem_mb=%d,disk_gb=%d,user_name='%s',vcpu_utility=%.2f,mem_utility=%.2f,disk_utility=%.2f,bonus=%.2f,host_name='%s',vm_state='%s',check_at=NOW();",
+							database,vm_name, vm_ip,vm_mac,instance_uuid,created_at, deleted_at,cell_name,availability_zone,image_name, vcpus, memory_mb, disk_gb, vm_username,vcpu_util,mem_util,disk_util,bonus,host_domain,vm_state);
+					msql2.insert(cmd);
+				}
+			}
 
 		}
-		
+
 	}
 	is.close();
 	return 1;
@@ -2191,19 +2173,19 @@ int main(int argc, char **argv)
 	int flag;
 	char msg[sizeof(cmd)] = {0};
 
-	
+
 	Json::Reader reader;// 解析json用Json::Reader   
-    Json::Value root; // Json::Value是一种很重要的类型，可以代表任意类型。如int, string, object, array         
+	Json::Value root; // Json::Value是一种很重要的类型，可以代表任意类型。如int, string, object, array         
 	Json::Value root2;
-	
+
 	//获取token
-    std::ifstream is;  
+	std::ifstream is;  
 	std::ifstream is2;
 
 
 
 
-	
+
 	memset(cmd,0,sizeof(cmd));
 	snprintf(cmd,sizeof(cmd),"curl -s -X POST http://%s:5000/v2.0/tokens -H \"Content-Type: application/json\" -d '{\"auth\": {\"tenantName\": \"'\"%s\"'\", \"passwordCredentials\":{\"username\": \"'\"%s\"'\", \"password\": \"'\"%s\"'\"}}}'  | python -mjson.tool > %s/token.json",keystoneAddr,tenantName,cloudUsername,cloudPassword,json_dir.c_str());
 	system(cmd);
@@ -2212,13 +2194,13 @@ int main(int argc, char **argv)
 	sprintf(filename,"%s/token.json",json_dir.c_str());
 	is.open(filename, std::ios::binary );  
 	if (reader.parse(is, root, 0))  
-    {
+	{
 		token = root["access"]["token"]["id"].asString();
 		tenant_id = root["access"]["token"]["tenant"]["id"].asString();
 	}
 	is.close();
-	
-	
+
+
 	string str_username;
 	string str_user_id;
 	//对user_id和user_name生成map
@@ -2229,19 +2211,19 @@ int main(int argc, char **argv)
 	sprintf(filename,"%s/user.json",json_dir.c_str());
 	is.open(filename, std::ios::binary );  
 	if (reader.parse(is, root, 0))  
-    {
+	{
 		int user_size = root["users"].size();  // 得到数组个数
-        for(int i = 0; i < user_size; ++i)  // 遍历数组  
-        {
+		for(int i = 0; i < user_size; ++i)  // 遍历数组  
+		{
 			str_username = root["users"][i]["username"].asString();
 			str_user_id = root["users"][i]["id"].asString();
 			user_map[str_user_id] = str_username;
-			
+
 		}
 	}
 	is.close();
-	
-	
+
+
 	//对tenant_id和tenant_name生成map 对tenant_id和quota_limit生成map
 	string str_tenant_id;
 	string str_tenant_name;
@@ -2278,14 +2260,14 @@ int main(int argc, char **argv)
 				tenant_ram_quota[str_tenant_id] = str_ram;
 			}
 			is2.close();
-			
+
 		}
-		
-		
+
+
 	}
 	is.close();
-	
-	
+
+
 	//对flavor_id和flavor生成map
 	string flavor_id;
 	string flavor_vcpu;
@@ -2299,22 +2281,22 @@ int main(int argc, char **argv)
 	sprintf(filename,"%s/flavor.json",json_dir.c_str());
 	is.open(filename, std::ios::binary ); 
 	if (reader.parse(is, root, 0))  
-    {
+	{
 		int flavor_size = root["flavors"].size(); 
 		for(int i = 0; i < flavor_size; ++i)  // 遍历数组  
 		{
-			 flavor_id = root["flavors"][i]["id"].asString();
-			 flavor_vcpu = root["flavors"][i]["vcpus"].asString();
-			 flavor_ram = root["flavors"][i]["ram"].asString();
-			 flavor_disk = root["flavors"][i]["disk"].asString();
-			 
-			 flavor_vcpu_map[flavor_id] = flavor_vcpu;
-			 flavor_ram_map[flavor_id] = flavor_ram;
-			 flavor_disk_map[flavor_id] = flavor_disk;
+			flavor_id = root["flavors"][i]["id"].asString();
+			flavor_vcpu = root["flavors"][i]["vcpus"].asString();
+			flavor_ram = root["flavors"][i]["ram"].asString();
+			flavor_disk = root["flavors"][i]["disk"].asString();
+
+			flavor_vcpu_map[flavor_id] = flavor_vcpu;
+			flavor_ram_map[flavor_id] = flavor_ram;
+			flavor_disk_map[flavor_id] = flavor_disk;
 		}
 	}
 	is.close();
-	
+
 	//对image_id和image_name 生成map
 	string image_id;
 	string image_name;
@@ -2324,16 +2306,16 @@ int main(int argc, char **argv)
 	//filename = "/root/image.json";
 	//char filename[100];memset(filename,0,sizeof(filename));
 	sprintf(filename,"%s/image.json",json_dir.c_str());
-	
+
 	is.open(filename, std::ios::binary ); 
 	if (reader.parse(is, root, 0))  
-    {
+	{
 		int image_size = root["images"].size(); 
 		for(int i = 0; i < image_size; ++i)  // 遍历数组  
 		{
-			 image_id = root["images"][i]["id"].asString();
-			 image_name = root["images"][i]["name"].asString();
-			 image_map[image_id] = image_name;
+			image_id = root["images"][i]["id"].asString();
+			image_name = root["images"][i]["name"].asString();
+			image_map[image_id] = image_name;
 		}
 	}
 		
@@ -2343,7 +2325,7 @@ int main(int argc, char **argv)
 	system(cmd);
 	
 	
-	//	
+	//retrieve vcpu hour	
 	memset(cmd,0,sizeof(cmd));
 	snprintf(cmd,sizeof(cmd),"curl -X GET -H  \"X-Auth-Token:%s\" -H \"Content-Type: application/json\"  http://%s:8774/v2/%s/os-simple-tenant-usage?start=%s |python -mjson.tool > %s/server_diagnostics.json",token.c_str(),novaAddr,tenant_id.c_str(),argv[1],json_dir.c_str());
 	system(cmd);

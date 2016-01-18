@@ -11,19 +11,19 @@
         },
         {
             "resource": {
-                "cpu": 8,
-                "disk_gb": 250,
+                "cpu": 9,
+                "disk_gb": 330,
                 "host": "pvm037.ihep.ac.cn",
-                "memory_mb": 33280,
+                "memory_mb": 37376,
                 "project": "(used_now)"
             }
         },
         {
             "resource": {
-                "cpu": 8,
-                "disk_gb": 250,
+                "cpu": 9,
+                "disk_gb": 330,
                 "host": "pvm037.ihep.ac.cn",
-                "memory_mb": 32768,
+                "memory_mb": 36864,
                 "project": "(used_max)"
             }
         },
@@ -79,6 +79,15 @@
                 "host": "pvm037.ihep.ac.cn",
                 "memory_mb": 4096,
                 "project": "gaobo"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 80,
+                "host": "pvm037.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "liuyaqing"
             }
         }
     ]

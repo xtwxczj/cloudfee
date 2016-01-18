@@ -40,5 +40,6 @@ CLOUDFEE_JSON_DIR=${PWD}/json
 export CLOUDFEE_JSON_DIR
 
 #----pwd for netdb----
-${PWD}/bin/netdb
-
+#${PWD}/bin/netdb
+${PWD}/bin/tenant_quota
+${PWD}/bin/user_scan

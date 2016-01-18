@@ -66,6 +66,15 @@
         {
             "resource": {
                 "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm205.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "sangyu"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
                 "disk_gb": 80,
                 "host": "pvm205.ihep.ac.cn",
                 "memory_mb": 4096,
@@ -110,10 +119,10 @@
         },
         {
             "resource": {
-                "cpu": 2,
-                "disk_gb": 80,
+                "cpu": 1,
+                "disk_gb": 40,
                 "host": "pvm205.ihep.ac.cn",
-                "memory_mb": 8192,
+                "memory_mb": 4096,
                 "project": "lidengjie"
             }
         },

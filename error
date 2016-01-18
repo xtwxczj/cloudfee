@@ -1,0 +1,394 @@
+/root/cloudfee/src/single_cloud_vm_scan.cpp: In function ‘void* cloud_vm_scan(void*)’:
+/root/cloudfee/src/single_cloud_vm_scan.cpp:58:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* vm_domain = "null";   //虚拟机域名
+                    ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:59:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* vm_name = "null";   //虚拟机名称
+                  ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:60:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* group_name = "null";
+                     ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:61:24: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* instance_uuid = "null";
+                        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:62:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* tenant_id = "null";
+                    ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:65:19: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* cpu_info = "null";  //宿主机cpu信息
+                   ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:66:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* host_ip = "null";   //宿主机IP
+                  ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:70:26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* host_created_at = "null"; //宿主机加入的时间
+                          ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:71:26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* host_deleted_at = "null"; //宿主机离开的时间
+                          ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:76:22: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* host_domain = "null";  //宿主机域名
+                      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:79:22: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* vm_username = "null";  //虚拟机创建的用户名称
+                      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:80:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* vm_user_id = "null";   //用户id
+                     ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:81:16: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* vm_ip = "null";    //虚拟机IP
+                ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:82:17: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* vm_mac = "null";   //虚拟机MAC
+                 ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:83:27: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+         char* cell_name = "null"; 
+                           ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:84:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* availability_zone = "null";     //
+                            ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:85:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* project_id = "null";        //
+                     ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:86:19: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* vm_state = "null";   //虚拟机状态   active=1  or pause or showdown ...
+                   ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:91:22: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* launched_on = "null";  //虚拟机创建在哪个宿主机
+                      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:92:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* created_at = "null";  //虚拟机创建的时间
+                     ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:93:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* deleted_at = "null";
+                     ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:96:19: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* start_at = "null";
+                   ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:97:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* shut_at = "null";
+                  ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:98:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* checked_at = "null";
+                     ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:100:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* image_name = "null";  //虚拟机使用的镜像的名称
+                     ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:101:19: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* image_id = "null";   //虚拟机镜像的id
+                   ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:103:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* flavor_id = "null";   //资源匹配的类型id
+                    ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:173:16: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     created_at = "null";
+                ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:174:16: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     deleted_at = "null";
+                ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:175:12: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     vm_mac = "null";
+            ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:176:11: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     vm_ip = "null";
+           ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:184:16: error: redeclaration of ‘std::string user_id’
+    std::string user_id = root["servers"][i]["user_id"].asString();
+                ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:120:16: error: ‘std::string user_id’ previously declared here
+    std::string user_id = root["servers"][i]["user_id"].asString();
+                ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:58:8: warning: unused variable ‘vm_domain’ [-Wunused-variable]
+  char* vm_domain = "null";   //虚拟机域名
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:60:8: warning: unused variable ‘group_name’ [-Wunused-variable]
+  char* group_name = "null";
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:65:8: warning: unused variable ‘cpu_info’ [-Wunused-variable]
+  char* cpu_info = "null";  //宿主机cpu信息
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:66:8: warning: unused variable ‘host_ip’ [-Wunused-variable]
+  char* host_ip = "null";   //宿主机IP
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:67:6: warning: unused variable ‘host_vcpus’ [-Wunused-variable]
+  int host_vcpus = 0;    //宿主机总的cpu核数
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:68:6: warning: unused variable ‘host_memory_mb’ [-Wunused-variable]
+  int host_memory_mb = 0;   //宿主机的内存数量
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:69:6: warning: unused variable ‘host_disk_gb’ [-Wunused-variable]
+  int host_disk_gb = 0;   //宿主机的磁盘大小
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:70:8: warning: unused variable ‘host_created_at’ [-Wunused-variable]
+  char* host_created_at = "null"; //宿主机加入的时间
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:71:8: warning: unused variable ‘host_deleted_at’ [-Wunused-variable]
+  char* host_deleted_at = "null"; //宿主机离开的时间
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:72:6: warning: unused variable ‘host_free_vcpus’ [-Wunused-variable]
+  int host_free_vcpus = 0;     //宿主机上剩余的内核数
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:73:6: warning: unused variable ‘host_free_ram_mb’ [-Wunused-variable]
+  int host_free_ram_mb = 0;  //宿主机剩余的内存数量
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:74:6: warning: unused variable ‘host_free_disk_gb’ [-Wunused-variable]
+  int host_free_disk_gb = 0;  //宿主机剩余的磁盘大小
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:75:6: warning: unused variable ‘running_vms’ [-Wunused-variable]
+  int running_vms = 0;   //宿主机上运行的虚拟机数量
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:83:15: warning: unused variable ‘cell_name’ [-Wunused-variable]
+         char* cell_name = "null"; 
+               ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:85:8: warning: unused variable ‘project_id’ [-Wunused-variable]
+  char* project_id = "null";        //
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:90:6: warning: unused variable ‘flavor’ [-Wunused-variable]
+  int flavor = 0;
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:91:8: warning: unused variable ‘launched_on’ [-Wunused-variable]
+  char* launched_on = "null";  //虚拟机创建在哪个宿主机
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:95:6: warning: unused variable ‘flag’ [-Wunused-variable]
+  int flag = 0;     //和shut_at配合 1表示开启，0表示关闭, -1表示刚创建
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:96:8: warning: unused variable ‘start_at’ [-Wunused-variable]
+  char* start_at = "null";
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:97:8: warning: unused variable ‘shut_at’ [-Wunused-variable]
+  char* shut_at = "null";
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:98:8: warning: unused variable ‘checked_at’ [-Wunused-variable]
+  char* checked_at = "null";
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:101:8: warning: unused variable ‘image_id’ [-Wunused-variable]
+  char* image_id = "null";   //虚拟机镜像的id
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:103:8: warning: unused variable ‘flavor_id’ [-Wunused-variable]
+  char* flavor_id = "null";   //资源匹配的类型id
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:107:9: warning: unused variable ‘cpu’ [-Wunused-variable]
+  double cpu = 0;     //CPU time used
+         ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:250:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp: In function ‘void* cloud_host_scan(void*)’:
+/root/cloudfee/src/single_cloud_vm_scan.cpp:257:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* vm_domain = "null";   //虚拟机域名
+                    ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:258:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* vm_name = "null";   //虚拟机名称
+                  ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:259:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* group_name = "null";
+                     ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:260:24: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* instance_uuid = "null";
+                        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:261:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* tenant_id = "null";
+                    ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:264:19: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* cpu_info = "null";  //宿主机cpu信息
+                   ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:265:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* host_ip = "null";   //宿主机IP
+                  ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:269:26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* host_created_at = "null"; //宿主机加入的时间
+                          ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:270:26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* host_deleted_at = "null"; //宿主机离开的时间
+                          ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:275:22: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* host_domain = "null";  //宿主机域名
+                      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:278:22: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* vm_username = "null";  //虚拟机创建的用户名称
+                      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:279:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* vm_user_id = "null";   //用户id
+                     ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:280:16: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* vm_ip = "null";    //虚拟机IP
+                ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:281:17: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* vm_mac = "null";   //虚拟机MAC
+                 ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:282:27: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+         char* cell_name = "null"; 
+                           ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:283:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* availability_zone = "null";     //
+                            ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:284:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* project_id = "null";        //
+                     ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:285:19: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* vm_state = "null";   //虚拟机状态   active=1  or pause or showdown ...
+                   ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:290:22: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* launched_on = "null";  //虚拟机创建在哪个宿主机
+                      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:291:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* created_at = "null";  //虚拟机创建的时间
+                     ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:292:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* deleted_at = "null";
+                     ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:295:19: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* start_at = "null";
+                   ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:296:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* shut_at = "null";
+                  ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:297:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* checked_at = "null";
+                     ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:299:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* image_name = "null";  //虚拟机使用的镜像的名称
+                     ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:300:19: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* image_id = "null";   //虚拟机镜像的id
+                   ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:302:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char* flavor_id = "null";   //资源匹配的类型id
+                    ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:257:8: warning: unused variable ‘vm_domain’ [-Wunused-variable]
+  char* vm_domain = "null";   //虚拟机域名
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:258:8: warning: unused variable ‘vm_name’ [-Wunused-variable]
+  char* vm_name = "null";   //虚拟机名称
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:259:8: warning: unused variable ‘group_name’ [-Wunused-variable]
+  char* group_name = "null";
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:260:8: warning: unused variable ‘instance_uuid’ [-Wunused-variable]
+  char* instance_uuid = "null";
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:262:6: warning: unused variable ‘vm_batch’ [-Wunused-variable]
+  int vm_batch=0;
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:264:8: warning: unused variable ‘cpu_info’ [-Wunused-variable]
+  char* cpu_info = "null";  //宿主机cpu信息
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:278:8: warning: unused variable ‘vm_username’ [-Wunused-variable]
+  char* vm_username = "null";  //虚拟机创建的用户名称
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:279:8: warning: unused variable ‘vm_user_id’ [-Wunused-variable]
+  char* vm_user_id = "null";   //用户id
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:280:8: warning: unused variable ‘vm_ip’ [-Wunused-variable]
+  char* vm_ip = "null";    //虚拟机IP
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:281:8: warning: unused variable ‘vm_mac’ [-Wunused-variable]
+  char* vm_mac = "null";   //虚拟机MAC
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:282:15: warning: unused variable ‘cell_name’ [-Wunused-variable]
+         char* cell_name = "null"; 
+               ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:284:8: warning: unused variable ‘project_id’ [-Wunused-variable]
+  char* project_id = "null";        //
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:285:8: warning: unused variable ‘vm_state’ [-Wunused-variable]
+  char* vm_state = "null";   //虚拟机状态   active=1  or pause or showdown ...
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:286:7: warning: unused variable ‘vcpus’ [-Wunused-variable]
+  int  vcpus = 0;     //虚拟机占用的虚核数量
+       ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:287:7: warning: unused variable ‘memory_mb’ [-Wunused-variable]
+  int  memory_mb = 0;    //虚拟机占用的内存数量
+       ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:288:6: warning: unused variable ‘disk_gb’ [-Wunused-variable]
+  int disk_gb = 0;
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:289:6: warning: unused variable ‘flavor’ [-Wunused-variable]
+  int flavor = 0;
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:290:8: warning: unused variable ‘launched_on’ [-Wunused-variable]
+  char* launched_on = "null";  //虚拟机创建在哪个宿主机
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:291:8: warning: unused variable ‘created_at’ [-Wunused-variable]
+  char* created_at = "null";  //虚拟机创建的时间
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:292:8: warning: unused variable ‘deleted_at’ [-Wunused-variable]
+  char* deleted_at = "null";
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:294:6: warning: unused variable ‘flag’ [-Wunused-variable]
+  int flag = 0;     //和shut_at配合 1表示开启，0表示关闭, -1表示刚创建
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:295:8: warning: unused variable ‘start_at’ [-Wunused-variable]
+  char* start_at = "null";
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:296:8: warning: unused variable ‘shut_at’ [-Wunused-variable]
+  char* shut_at = "null";
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:297:8: warning: unused variable ‘checked_at’ [-Wunused-variable]
+  char* checked_at = "null";
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:299:8: warning: unused variable ‘image_name’ [-Wunused-variable]
+  char* image_name = "null";  //虚拟机使用的镜像的名称
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:300:8: warning: unused variable ‘image_id’ [-Wunused-variable]
+  char* image_id = "null";   //虚拟机镜像的id
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:302:8: warning: unused variable ‘flavor_id’ [-Wunused-variable]
+  char* flavor_id = "null";   //资源匹配的类型id
+        ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:304:9: warning: unused variable ‘vcpu_util’ [-Wunused-variable]
+  double vcpu_util = 0;
+         ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:305:9: warning: unused variable ‘vcpu_hour’ [-Wunused-variable]
+  double vcpu_hour = 0;
+         ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:306:9: warning: unused variable ‘cpu’ [-Wunused-variable]
+  double cpu = 0;     //CPU time used
+         ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:494:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp: In function ‘int main(int, char**)’:
+/root/cloudfee/src/single_cloud_vm_scan.cpp:500:6: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  var = "CLOUDFEE_DB_ADDR";
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:504:6: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  var = "CLOUDFEE_DB_USER";
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:506:6: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  var = "CLOUDFEE_DB_PWD";
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:509:6: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  var = "CLOUDFEE_DB";
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:512:6: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  var = "KEYSTONE_ADDR";
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:514:6: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  var = "NOVA_ADDR";
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:516:6: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  var = "CEILOMETER_ADDR";
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:519:6: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  var = "TENANT_NAME";
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:521:6: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  var = "CLOUD_USERNAME";
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:523:6: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  var = "CLOUD_PASSWORD";
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:526:6: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  var = "CLOUDFEE_JSON_DIR";
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:528:6: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  var = "LOGIN_USERNAME";
+      ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:531:13: warning: unused variable ‘flag’ [-Wunused-variable]
+         int flag;
+             ^
+/root/cloudfee/src/single_cloud_vm_scan.cpp:532:7: warning: unused variable ‘msg’ [-Wunused-variable]
+  char msg[sizeof(cmd)] = {0};
+       ^
+make: *** [/root/cloudfee/obj/single_cloud_vm_scan.o] Error 1

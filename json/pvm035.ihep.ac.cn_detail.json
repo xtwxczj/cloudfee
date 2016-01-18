@@ -11,19 +11,19 @@
         },
         {
             "resource": {
-                "cpu": 5,
-                "disk_gb": 200,
+                "cpu": 9,
+                "disk_gb": 360,
                 "host": "pvm035.ihep.ac.cn",
-                "memory_mb": 20992,
+                "memory_mb": 37376,
                 "project": "(used_now)"
             }
         },
         {
             "resource": {
-                "cpu": 5,
-                "disk_gb": 200,
+                "cpu": 9,
+                "disk_gb": 360,
                 "host": "pvm035.ihep.ac.cn",
-                "memory_mb": 20480,
+                "memory_mb": 36864,
                 "project": "(used_max)"
             }
         },
@@ -52,6 +52,24 @@
                 "host": "pvm035.ihep.ac.cn",
                 "memory_mb": 4096,
                 "project": "lick"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 1,
+                "disk_gb": 40,
+                "host": "pvm035.ihep.ac.cn",
+                "memory_mb": 4096,
+                "project": "huqb"
+            }
+        },
+        {
+            "resource": {
+                "cpu": 3,
+                "disk_gb": 120,
+                "host": "pvm035.ihep.ac.cn",
+                "memory_mb": 12288,
+                "project": "lihaibo"
             }
         },
         {

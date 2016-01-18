@@ -3,6 +3,916 @@
         {
             "OS-DCF:diskConfig": "MANUAL",
             "OS-EXT-AZ:availability_zone": "nova",
+            "OS-EXT-SRV-ATTR:host": "pvm035.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm035.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:instance_name": "instance-00000642",
+            "OS-EXT-STS:power_state": 1,
+            "OS-EXT-STS:task_state": null,
+            "OS-EXT-STS:vm_state": "active",
+            "OS-SRV-USG:launched_at": "2016-01-14T07:20:13.000000",
+            "OS-SRV-USG:terminated_at": null,
+            "accessIPv4": "",
+            "accessIPv6": "",
+            "addresses": {
+                "TEST-Net-Private": [
+                    {
+                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:39:ff:04",
+                        "OS-EXT-IPS:type": "fixed",
+                        "addr": "192.168.83.61",
+                        "version": 4
+                    }
+                ]
+            },
+            "config_drive": "",
+            "created": "2016-01-14T07:20:09Z",
+            "flavor": {
+                "id": "03144859-50bf-4696-bcaa-48a6d82e320f",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/flavors/03144859-50bf-4696-bcaa-48a6d82e320f",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "hostId": "881c0a7a2d0d5e9ba651e32734958931498cb360da44a2903831cedd",
+            "id": "d9714cfe-977b-4dea-a411-4790aef6faee",
+            "image": {
+                "id": "d4c7ebb7-5509-4c9d-bbb2-d872d44bdebd",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/images/d4c7ebb7-5509-4c9d-bbb2-d872d44bdebd",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "key_name": null,
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/servers/d9714cfe-977b-4dea-a411-4790aef6faee",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/servers/d9714cfe-977b-4dea-a411-4790aef6faee",
+                    "rel": "bookmark"
+                }
+            ],
+            "metadata": {},
+            "name": "sl6pam",
+            "os-extended-volumes:volumes_attached": [],
+            "progress": 0,
+            "security_groups": [
+                {
+                    "name": "default"
+                }
+            ],
+            "status": "ACTIVE",
+            "tenant_id": "huqb",
+            "updated": "2016-01-14T07:20:14Z",
+            "user_id": "huqb"
+        },
+        {
+            "OS-DCF:diskConfig": "MANUAL",
+            "OS-EXT-AZ:availability_zone": "nova",
+            "OS-EXT-SRV-ATTR:host": "pvm036.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm036.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:instance_name": "instance-00000641",
+            "OS-EXT-STS:power_state": 1,
+            "OS-EXT-STS:task_state": null,
+            "OS-EXT-STS:vm_state": "active",
+            "OS-SRV-USG:launched_at": "2016-01-13T12:21:01.000000",
+            "OS-SRV-USG:terminated_at": null,
+            "accessIPv4": "",
+            "accessIPv6": "",
+            "addresses": {
+                "TEST-Net-Private": [
+                    {
+                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:04:02:f3",
+                        "OS-EXT-IPS:type": "fixed",
+                        "addr": "192.168.83.6",
+                        "version": 4
+                    }
+                ]
+            },
+            "config_drive": "",
+            "created": "2016-01-13T12:20:55Z",
+            "flavor": {
+                "id": "03144859-50bf-4696-bcaa-48a6d82e320f",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/flavors/03144859-50bf-4696-bcaa-48a6d82e320f",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "hostId": "0b76b0161a88e36509f83a34b90338e5214a2d66e3fc3d7b96cd34e0",
+            "id": "ed02709b-9086-481b-9844-bbd79f2a4b82",
+            "image": {
+                "id": "d4c7ebb7-5509-4c9d-bbb2-d872d44bdebd",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/images/d4c7ebb7-5509-4c9d-bbb2-d872d44bdebd",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "key_name": null,
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/servers/ed02709b-9086-481b-9844-bbd79f2a4b82",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/servers/ed02709b-9086-481b-9844-bbd79f2a4b82",
+                    "rel": "bookmark"
+                }
+            ],
+            "metadata": {},
+            "name": "sl65-xiaobao2",
+            "os-extended-volumes:volumes_attached": [],
+            "progress": 0,
+            "security_groups": [
+                {
+                    "name": "default"
+                }
+            ],
+            "status": "ACTIVE",
+            "tenant_id": "lihaibo",
+            "updated": "2016-01-13T12:21:01Z",
+            "user_id": "lihaibo"
+        },
+        {
+            "OS-DCF:diskConfig": "MANUAL",
+            "OS-EXT-AZ:availability_zone": "nova",
+            "OS-EXT-SRV-ATTR:host": "pvm029.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm029.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:instance_name": "instance-0000063e",
+            "OS-EXT-STS:power_state": 1,
+            "OS-EXT-STS:task_state": null,
+            "OS-EXT-STS:vm_state": "active",
+            "OS-SRV-USG:launched_at": "2016-01-13T02:21:37.000000",
+            "OS-SRV-USG:terminated_at": null,
+            "accessIPv4": "",
+            "accessIPv6": "",
+            "addresses": {
+                "TEST-Net-Private": [
+                    {
+                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:1e:19:48",
+                        "OS-EXT-IPS:type": "fixed",
+                        "addr": "192.168.83.45",
+                        "version": 4
+                    }
+                ]
+            },
+            "config_drive": "",
+            "created": "2016-01-13T02:21:02Z",
+            "flavor": {
+                "id": "03144859-50bf-4696-bcaa-48a6d82e320f",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/flavors/03144859-50bf-4696-bcaa-48a6d82e320f",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "hostId": "e2a772b188d62e6dd24942c465e7958aae9be788edd809717f5e8836",
+            "id": "e3d83045-d767-4221-bba9-7501019356f9",
+            "image": {
+                "id": "c67a57e6-5207-4193-932c-c403cbe93512",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/images/c67a57e6-5207-4193-932c-c403cbe93512",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "key_name": null,
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/servers/e3d83045-d767-4221-bba9-7501019356f9",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/servers/e3d83045-d767-4221-bba9-7501019356f9",
+                    "rel": "bookmark"
+                }
+            ],
+            "metadata": {},
+            "name": "test-shibboleth2",
+            "os-extended-volumes:volumes_attached": [],
+            "progress": 0,
+            "security_groups": [
+                {
+                    "name": "default"
+                }
+            ],
+            "status": "ACTIVE",
+            "tenant_id": "chengzj",
+            "updated": "2016-01-13T02:21:37Z",
+            "user_id": "chengzj"
+        },
+        {
+            "OS-DCF:diskConfig": "MANUAL",
+            "OS-EXT-AZ:availability_zone": "nova",
+            "OS-EXT-SRV-ATTR:host": "pvm031.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm031.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:instance_name": "instance-0000063d",
+            "OS-EXT-STS:power_state": 1,
+            "OS-EXT-STS:task_state": null,
+            "OS-EXT-STS:vm_state": "active",
+            "OS-SRV-USG:launched_at": "2016-01-12T02:23:14.000000",
+            "OS-SRV-USG:terminated_at": null,
+            "accessIPv4": "",
+            "accessIPv6": "",
+            "addresses": {
+                "TEST-Net-Private": [
+                    {
+                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:cc:f6:8e",
+                        "OS-EXT-IPS:type": "fixed",
+                        "addr": "192.168.83.44",
+                        "version": 4
+                    }
+                ]
+            },
+            "config_drive": "",
+            "created": "2016-01-12T02:23:10Z",
+            "flavor": {
+                "id": "03144859-50bf-4696-bcaa-48a6d82e320f",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/flavors/03144859-50bf-4696-bcaa-48a6d82e320f",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "hostId": "67efd0467a1542b2d7d4693d4a978cbc61dd55ae392ac39e1eb72ef6",
+            "id": "5ff1a179-1ce3-4769-b6ee-e89113861f48",
+            "image": {
+                "id": "ca3f6e64-54c2-4c6a-b965-d11457d90d02",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/images/ca3f6e64-54c2-4c6a-b965-d11457d90d02",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "key_name": null,
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/servers/5ff1a179-1ce3-4769-b6ee-e89113861f48",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/servers/5ff1a179-1ce3-4769-b6ee-e89113861f48",
+                    "rel": "bookmark"
+                }
+            ],
+            "metadata": {},
+            "name": "adh",
+            "os-extended-volumes:volumes_attached": [],
+            "progress": 0,
+            "security_groups": [
+                {
+                    "name": "default"
+                }
+            ],
+            "status": "ACTIVE",
+            "tenant_id": "adh",
+            "updated": "2016-01-12T02:23:15Z",
+            "user_id": "adh"
+        },
+        {
+            "OS-DCF:diskConfig": "MANUAL",
+            "OS-EXT-AZ:availability_zone": "nova",
+            "OS-EXT-SRV-ATTR:host": "pvm035.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm035.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:instance_name": "instance-0000063b",
+            "OS-EXT-STS:power_state": 1,
+            "OS-EXT-STS:task_state": null,
+            "OS-EXT-STS:vm_state": "active",
+            "OS-SRV-USG:launched_at": "2016-01-11T06:11:56.000000",
+            "OS-SRV-USG:terminated_at": null,
+            "accessIPv4": "",
+            "accessIPv6": "",
+            "addresses": {
+                "TEST-Net-Private": [
+                    {
+                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:ab:fb:14",
+                        "OS-EXT-IPS:type": "fixed",
+                        "addr": "192.168.83.40",
+                        "version": 4
+                    }
+                ]
+            },
+            "config_drive": "",
+            "created": "2016-01-11T06:11:51Z",
+            "flavor": {
+                "id": "03144859-50bf-4696-bcaa-48a6d82e320f",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/flavors/03144859-50bf-4696-bcaa-48a6d82e320f",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "hostId": "35e2a1ff13bd971e987fc220d52ccaa09d032d777a44bc5e64dd8abe",
+            "id": "96720545-728c-4c54-aa57-5a9ba0f48792",
+            "image": {
+                "id": "d4c7ebb7-5509-4c9d-bbb2-d872d44bdebd",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/images/d4c7ebb7-5509-4c9d-bbb2-d872d44bdebd",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "key_name": null,
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/servers/96720545-728c-4c54-aa57-5a9ba0f48792",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/servers/96720545-728c-4c54-aa57-5a9ba0f48792",
+                    "rel": "bookmark"
+                }
+            ],
+            "metadata": {},
+            "name": "sl65-xiaobao",
+            "os-extended-volumes:volumes_attached": [],
+            "progress": 0,
+            "security_groups": [
+                {
+                    "name": "default"
+                }
+            ],
+            "status": "ACTIVE",
+            "tenant_id": "lihaibo",
+            "updated": "2016-01-11T06:11:56Z",
+            "user_id": "lihaibo"
+        },
+        {
+            "OS-DCF:diskConfig": "MANUAL",
+            "OS-EXT-AZ:availability_zone": "nova",
+            "OS-EXT-SRV-ATTR:host": "pvm205.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm205.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:instance_name": "instance-0000063a",
+            "OS-EXT-STS:power_state": 1,
+            "OS-EXT-STS:task_state": null,
+            "OS-EXT-STS:vm_state": "active",
+            "OS-SRV-USG:launched_at": "2016-01-11T02:02:53.000000",
+            "OS-SRV-USG:terminated_at": null,
+            "accessIPv4": "",
+            "accessIPv6": "",
+            "addresses": {
+                "TEST-Net-Private": [
+                    {
+                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:1e:ef:b5",
+                        "OS-EXT-IPS:type": "fixed",
+                        "addr": "192.168.83.34",
+                        "version": 4
+                    }
+                ]
+            },
+            "config_drive": "",
+            "created": "2016-01-11T01:44:19Z",
+            "flavor": {
+                "id": "03144859-50bf-4696-bcaa-48a6d82e320f",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/flavors/03144859-50bf-4696-bcaa-48a6d82e320f",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "hostId": "23c2c4ed7d3241e5d457146c274e92178960f460789012a01cc2e294",
+            "id": "7e431067-d01f-4a2f-b75b-e1223a520449",
+            "image": {
+                "id": "5203f8c5-43f2-4693-a871-146c80046eeb",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/images/5203f8c5-43f2-4693-a871-146c80046eeb",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "key_name": null,
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/servers/7e431067-d01f-4a2f-b75b-e1223a520449",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/servers/7e431067-d01f-4a2f-b75b-e1223a520449",
+                    "rel": "bookmark"
+                }
+            ],
+            "metadata": {},
+            "name": "quasar",
+            "os-extended-volumes:volumes_attached": [],
+            "progress": 0,
+            "security_groups": [
+                {
+                    "name": "default"
+                }
+            ],
+            "status": "ACTIVE",
+            "tenant_id": "sangyu",
+            "updated": "2016-01-11T02:02:53Z",
+            "user_id": "sangyu"
+        },
+        {
+            "OS-DCF:diskConfig": "MANUAL",
+            "OS-EXT-AZ:availability_zone": "nova",
+            "OS-EXT-SRV-ATTR:host": "pvm036.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm036.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:instance_name": "instance-00000638",
+            "OS-EXT-STS:power_state": 1,
+            "OS-EXT-STS:task_state": null,
+            "OS-EXT-STS:vm_state": "active",
+            "OS-SRV-USG:launched_at": "2016-01-10T14:23:47.000000",
+            "OS-SRV-USG:terminated_at": null,
+            "accessIPv4": "",
+            "accessIPv6": "",
+            "addresses": {
+                "TEST-Net-Private": [
+                    {
+                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:17:84:f0",
+                        "OS-EXT-IPS:type": "fixed",
+                        "addr": "192.168.83.252",
+                        "version": 4
+                    }
+                ]
+            },
+            "config_drive": "",
+            "created": "2016-01-10T14:23:41Z",
+            "flavor": {
+                "id": "03144859-50bf-4696-bcaa-48a6d82e320f",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/flavors/03144859-50bf-4696-bcaa-48a6d82e320f",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "hostId": "1e9f102235c33468331fbe915b954d46b91872bfa447562f5db0f8f5",
+            "id": "c8614afd-d600-4502-a77b-38e0889abab8",
+            "image": {
+                "id": "d4c7ebb7-5509-4c9d-bbb2-d872d44bdebd",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/images/d4c7ebb7-5509-4c9d-bbb2-d872d44bdebd",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "key_name": null,
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/servers/c8614afd-d600-4502-a77b-38e0889abab8",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/servers/c8614afd-d600-4502-a77b-38e0889abab8",
+                    "rel": "bookmark"
+                }
+            ],
+            "metadata": {},
+            "name": "sl6test",
+            "os-extended-volumes:volumes_attached": [],
+            "progress": 0,
+            "security_groups": [
+                {
+                    "name": "default"
+                }
+            ],
+            "status": "ACTIVE",
+            "tenant_id": "huqb",
+            "updated": "2016-01-10T14:23:47Z",
+            "user_id": "huqb"
+        },
+        {
+            "OS-DCF:diskConfig": "MANUAL",
+            "OS-EXT-AZ:availability_zone": "nova",
+            "OS-EXT-SRV-ATTR:host": "pvm201.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm201.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:instance_name": "instance-00000637",
+            "OS-EXT-STS:power_state": 1,
+            "OS-EXT-STS:task_state": null,
+            "OS-EXT-STS:vm_state": "active",
+            "OS-SRV-USG:launched_at": "2016-01-10T12:58:41.000000",
+            "OS-SRV-USG:terminated_at": null,
+            "accessIPv4": "",
+            "accessIPv6": "",
+            "addresses": {
+                "TEST-Net-Private": [
+                    {
+                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:86:51:03",
+                        "OS-EXT-IPS:type": "fixed",
+                        "addr": "192.168.83.248",
+                        "version": 4
+                    }
+                ]
+            },
+            "config_drive": "",
+            "created": "2016-01-10T12:58:35Z",
+            "flavor": {
+                "id": "59a39ec6-8e11-4512-9e0d-771b74a54683",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/flavors/59a39ec6-8e11-4512-9e0d-771b74a54683",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "hostId": "9b8a841452e5355bd803fee656b29c3cca9dc9331d1029ea29632a79",
+            "id": "013f9a4a-fffd-421e-a375-0b5bc208d584",
+            "image": {
+                "id": "9d8cdbce-e4de-481f-b041-a260522ceffb",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/images/9d8cdbce-e4de-481f-b041-a260522ceffb",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "key_name": null,
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/servers/013f9a4a-fffd-421e-a375-0b5bc208d584",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/servers/013f9a4a-fffd-421e-a375-0b5bc208d584",
+                    "rel": "bookmark"
+                }
+            ],
+            "metadata": {},
+            "name": "hadoop",
+            "os-extended-volumes:volumes_attached": [],
+            "progress": 0,
+            "security_groups": [
+                {
+                    "name": "default"
+                }
+            ],
+            "status": "ACTIVE",
+            "tenant_id": "liqiang88",
+            "updated": "2016-01-10T12:58:41Z",
+            "user_id": "liqiang88"
+        },
+        {
+            "OS-DCF:diskConfig": "MANUAL",
+            "OS-EXT-AZ:availability_zone": "nova",
+            "OS-EXT-SRV-ATTR:host": "pvm035.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm035.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:instance_name": "instance-00000630",
+            "OS-EXT-STS:power_state": 1,
+            "OS-EXT-STS:task_state": null,
+            "OS-EXT-STS:vm_state": "active",
+            "OS-SRV-USG:launched_at": "2016-01-08T03:22:15.000000",
+            "OS-SRV-USG:terminated_at": null,
+            "accessIPv4": "",
+            "accessIPv6": "",
+            "addresses": {
+                "TEST-Net-Private": [
+                    {
+                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:3a:98:56",
+                        "OS-EXT-IPS:type": "fixed",
+                        "addr": "192.168.83.185",
+                        "version": 4
+                    }
+                ]
+            },
+            "config_drive": "",
+            "created": "2016-01-08T03:22:09Z",
+            "flavor": {
+                "id": "03144859-50bf-4696-bcaa-48a6d82e320f",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/flavors/03144859-50bf-4696-bcaa-48a6d82e320f",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "hostId": "35e2a1ff13bd971e987fc220d52ccaa09d032d777a44bc5e64dd8abe",
+            "id": "76be42d3-10b4-4d9f-964f-0525f6fd0292",
+            "image": {
+                "id": "c67a57e6-5207-4193-932c-c403cbe93512",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/images/c67a57e6-5207-4193-932c-c403cbe93512",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "key_name": null,
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/servers/76be42d3-10b4-4d9f-964f-0525f6fd0292",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/servers/76be42d3-10b4-4d9f-964f-0525f6fd0292",
+                    "rel": "bookmark"
+                }
+            ],
+            "metadata": {},
+            "name": "sl7_bao2",
+            "os-extended-volumes:volumes_attached": [],
+            "progress": 0,
+            "security_groups": [
+                {
+                    "name": "default"
+                }
+            ],
+            "status": "ACTIVE",
+            "tenant_id": "lihaibo",
+            "updated": "2016-01-08T03:22:15Z",
+            "user_id": "lihaibo"
+        },
+        {
+            "OS-DCF:diskConfig": "MANUAL",
+            "OS-EXT-AZ:availability_zone": "nova",
+            "OS-EXT-SRV-ATTR:host": "pvm035.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm035.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:instance_name": "instance-0000062f",
+            "OS-EXT-STS:power_state": 1,
+            "OS-EXT-STS:task_state": null,
+            "OS-EXT-STS:vm_state": "active",
+            "OS-SRV-USG:launched_at": "2016-01-07T08:20:11.000000",
+            "OS-SRV-USG:terminated_at": null,
+            "accessIPv4": "",
+            "accessIPv6": "",
+            "addresses": {
+                "TEST-Net-Private": [
+                    {
+                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:7c:ad:cf",
+                        "OS-EXT-IPS:type": "fixed",
+                        "addr": "192.168.83.181",
+                        "version": 4
+                    }
+                ]
+            },
+            "config_drive": "",
+            "created": "2016-01-07T08:20:05Z",
+            "flavor": {
+                "id": "03144859-50bf-4696-bcaa-48a6d82e320f",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/flavors/03144859-50bf-4696-bcaa-48a6d82e320f",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "hostId": "35e2a1ff13bd971e987fc220d52ccaa09d032d777a44bc5e64dd8abe",
+            "id": "604afc29-c488-46b5-8246-6e6d98574612",
+            "image": {
+                "id": "c67a57e6-5207-4193-932c-c403cbe93512",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/images/c67a57e6-5207-4193-932c-c403cbe93512",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "key_name": null,
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/servers/604afc29-c488-46b5-8246-6e6d98574612",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/servers/604afc29-c488-46b5-8246-6e6d98574612",
+                    "rel": "bookmark"
+                }
+            ],
+            "metadata": {},
+            "name": "sl7_bao",
+            "os-extended-volumes:volumes_attached": [],
+            "progress": 0,
+            "security_groups": [
+                {
+                    "name": "default"
+                }
+            ],
+            "status": "ACTIVE",
+            "tenant_id": "lihaibo",
+            "updated": "2016-01-07T08:20:11Z",
+            "user_id": "lihaibo"
+        },
+        {
+            "OS-DCF:diskConfig": "MANUAL",
+            "OS-EXT-AZ:availability_zone": "nova",
+            "OS-EXT-SRV-ATTR:host": "pvm037.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm037.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:instance_name": "instance-0000062d",
+            "OS-EXT-STS:power_state": 1,
+            "OS-EXT-STS:task_state": null,
+            "OS-EXT-STS:vm_state": "active",
+            "OS-SRV-USG:launched_at": "2016-01-06T09:08:27.000000",
+            "OS-SRV-USG:terminated_at": null,
+            "accessIPv4": "",
+            "accessIPv6": "",
+            "addresses": {
+                "TEST-Net-Private": [
+                    {
+                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:ee:13:0d",
+                        "OS-EXT-IPS:type": "fixed",
+                        "addr": "192.168.83.168",
+                        "version": 4
+                    }
+                ]
+            },
+            "config_drive": "",
+            "created": "2016-01-06T09:06:15Z",
+            "flavor": {
+                "id": "c3b6f3b5-509d-4d87-9792-1ee086480286",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/flavors/c3b6f3b5-509d-4d87-9792-1ee086480286",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "hostId": "bbee2c60ce430d7523fa64e50bcd2bfaff84e12c3cc2ce105f195bbc",
+            "id": "d903217d-9f3e-4e41-baf0-5baeedbf00a5",
+            "image": {
+                "id": "d4c7ebb7-5509-4c9d-bbb2-d872d44bdebd",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/images/d4c7ebb7-5509-4c9d-bbb2-d872d44bdebd",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "key_name": null,
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/servers/d903217d-9f3e-4e41-baf0-5baeedbf00a5",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/servers/d903217d-9f3e-4e41-baf0-5baeedbf00a5",
+                    "rel": "bookmark"
+                }
+            ],
+            "metadata": {},
+            "name": "test2",
+            "os-extended-volumes:volumes_attached": [],
+            "progress": 0,
+            "security_groups": [
+                {
+                    "name": "default"
+                }
+            ],
+            "status": "ACTIVE",
+            "tenant_id": "liuyaqing",
+            "updated": "2016-01-06T09:08:27Z",
+            "user_id": "liuyaqing"
+        },
+        {
+            "OS-DCF:diskConfig": "MANUAL",
+            "OS-EXT-AZ:availability_zone": "nova",
+            "OS-EXT-SRV-ATTR:host": "pvm030.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm030.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:instance_name": "instance-0000062b",
+            "OS-EXT-STS:power_state": 1,
+            "OS-EXT-STS:task_state": null,
+            "OS-EXT-STS:vm_state": "active",
+            "OS-SRV-USG:launched_at": "2016-01-05T09:25:45.000000",
+            "OS-SRV-USG:terminated_at": null,
+            "accessIPv4": "",
+            "accessIPv6": "",
+            "addresses": {
+                "TEST-Net-Private": [
+                    {
+                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:20:77:04",
+                        "OS-EXT-IPS:type": "fixed",
+                        "addr": "192.168.83.154",
+                        "version": 4
+                    }
+                ]
+            },
+            "config_drive": "",
+            "created": "2016-01-05T09:22:19Z",
+            "flavor": {
+                "id": "59a39ec6-8e11-4512-9e0d-771b74a54683",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/flavors/59a39ec6-8e11-4512-9e0d-771b74a54683",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "hostId": "8152a03bb55ed680ac45bbc45215ae7834d752754ec82c62d0e0704c",
+            "id": "61edb0a6-1194-4184-957a-f9bc4c8bfd72",
+            "image": {
+                "id": "9d8cdbce-e4de-481f-b041-a260522ceffb",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/images/9d8cdbce-e4de-481f-b041-a260522ceffb",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "key_name": null,
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/servers/61edb0a6-1194-4184-957a-f9bc4c8bfd72",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/servers/61edb0a6-1194-4184-957a-f9bc4c8bfd72",
+                    "rel": "bookmark"
+                }
+            ],
+            "metadata": {},
+            "name": "hadoop-61edb0a6-1194-4184-957a-f9bc4c8bfd72",
+            "os-extended-volumes:volumes_attached": [],
+            "progress": 0,
+            "security_groups": [
+                {
+                    "name": "default"
+                }
+            ],
+            "status": "ACTIVE",
+            "tenant_id": "liqiang88",
+            "updated": "2016-01-05T09:25:45Z",
+            "user_id": "liqiang88"
+        },
+        {
+            "OS-DCF:diskConfig": "MANUAL",
+            "OS-EXT-AZ:availability_zone": "nova",
+            "OS-EXT-SRV-ATTR:host": "pvm033.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm033.ihep.ac.cn",
+            "OS-EXT-SRV-ATTR:instance_name": "instance-0000062a",
+            "OS-EXT-STS:power_state": 1,
+            "OS-EXT-STS:task_state": null,
+            "OS-EXT-STS:vm_state": "active",
+            "OS-SRV-USG:launched_at": "2016-01-05T09:24:28.000000",
+            "OS-SRV-USG:terminated_at": null,
+            "accessIPv4": "",
+            "accessIPv6": "",
+            "addresses": {
+                "TEST-Net-Private": [
+                    {
+                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:ff:37:d7",
+                        "OS-EXT-IPS:type": "fixed",
+                        "addr": "192.168.83.139",
+                        "version": 4
+                    }
+                ]
+            },
+            "config_drive": "",
+            "created": "2016-01-05T09:22:19Z",
+            "flavor": {
+                "id": "59a39ec6-8e11-4512-9e0d-771b74a54683",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/flavors/59a39ec6-8e11-4512-9e0d-771b74a54683",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "hostId": "a5eb1e5d63c30e9f4e2b248551292e18ae78ba71f1bcf67e0d7cf2c3",
+            "id": "a1e44e72-2d29-483b-9a0e-a19a632ac0d8",
+            "image": {
+                "id": "9d8cdbce-e4de-481f-b041-a260522ceffb",
+                "links": [
+                    {
+                        "href": "http://192.168.81.200:8774/admin/images/9d8cdbce-e4de-481f-b041-a260522ceffb",
+                        "rel": "bookmark"
+                    }
+                ]
+            },
+            "key_name": null,
+            "links": [
+                {
+                    "href": "http://192.168.81.200:8774/v2/admin/servers/a1e44e72-2d29-483b-9a0e-a19a632ac0d8",
+                    "rel": "self"
+                },
+                {
+                    "href": "http://192.168.81.200:8774/admin/servers/a1e44e72-2d29-483b-9a0e-a19a632ac0d8",
+                    "rel": "bookmark"
+                }
+            ],
+            "metadata": {},
+            "name": "hadoop-a1e44e72-2d29-483b-9a0e-a19a632ac0d8",
+            "os-extended-volumes:volumes_attached": [],
+            "progress": 0,
+            "security_groups": [
+                {
+                    "name": "default"
+                }
+            ],
+            "status": "ACTIVE",
+            "tenant_id": "liqiang88",
+            "updated": "2016-01-05T09:24:28Z",
+            "user_id": "liqiang88"
+        },
+        {
+            "OS-DCF:diskConfig": "MANUAL",
+            "OS-EXT-AZ:availability_zone": "nova",
             "OS-EXT-SRV-ATTR:host": "pvm031.ihep.ac.cn",
             "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm031.ihep.ac.cn",
             "OS-EXT-SRV-ATTR:instance_name": "instance-00000628",
@@ -67,7 +977,7 @@
             ],
             "status": "ACTIVE",
             "tenant_id": "xiyingzhang",
-            "updated": "2016-01-05T07:25:23Z",
+            "updated": "2016-01-09T05:26:42Z",
             "user_id": "xiyingzhang"
         },
         {
@@ -279,76 +1189,6 @@
             "tenant_id": "chyd",
             "updated": "2015-12-30T07:26:59Z",
             "user_id": "chyd"
-        },
-        {
-            "OS-DCF:diskConfig": "MANUAL",
-            "OS-EXT-AZ:availability_zone": "nova",
-            "OS-EXT-SRV-ATTR:host": "pvm029.ihep.ac.cn",
-            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm029.ihep.ac.cn",
-            "OS-EXT-SRV-ATTR:instance_name": "instance-00000618",
-            "OS-EXT-STS:power_state": 1,
-            "OS-EXT-STS:task_state": null,
-            "OS-EXT-STS:vm_state": "active",
-            "OS-SRV-USG:launched_at": "2015-12-28T12:23:47.000000",
-            "OS-SRV-USG:terminated_at": null,
-            "accessIPv4": "",
-            "accessIPv6": "",
-            "addresses": {
-                "UI-Net-Private": [
-                    {
-                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:6f:70:f9",
-                        "OS-EXT-IPS:type": "fixed",
-                        "addr": "192.168.82.145",
-                        "version": 4
-                    }
-                ]
-            },
-            "config_drive": "",
-            "created": "2015-12-28T12:19:41Z",
-            "flavor": {
-                "id": "03144859-50bf-4696-bcaa-48a6d82e320f",
-                "links": [
-                    {
-                        "href": "http://192.168.81.200:8774/admin/flavors/03144859-50bf-4696-bcaa-48a6d82e320f",
-                        "rel": "bookmark"
-                    }
-                ]
-            },
-            "hostId": "e2a772b188d62e6dd24942c465e7958aae9be788edd809717f5e8836",
-            "id": "f8be6122-7105-444b-8bf6-75ffb318b964",
-            "image": {
-                "id": "d8ad22ac-c801-45c3-8fb6-56b6fe52a1b8",
-                "links": [
-                    {
-                        "href": "http://192.168.81.200:8774/admin/images/d8ad22ac-c801-45c3-8fb6-56b6fe52a1b8",
-                        "rel": "bookmark"
-                    }
-                ]
-            },
-            "key_name": null,
-            "links": [
-                {
-                    "href": "http://192.168.81.200:8774/v2/admin/servers/f8be6122-7105-444b-8bf6-75ffb318b964",
-                    "rel": "self"
-                },
-                {
-                    "href": "http://192.168.81.200:8774/admin/servers/f8be6122-7105-444b-8bf6-75ffb318b964",
-                    "rel": "bookmark"
-                }
-            ],
-            "metadata": {},
-            "name": "2",
-            "os-extended-volumes:volumes_attached": [],
-            "progress": 0,
-            "security_groups": [
-                {
-                    "name": "default"
-                }
-            ],
-            "status": "ACTIVE",
-            "tenant_id": "chengzj",
-            "updated": "2015-12-28T12:23:47Z",
-            "user_id": "chengzj"
         },
         {
             "OS-DCF:diskConfig": "MANUAL",
@@ -3206,7 +4046,7 @@
                 }
             ],
             "metadata": {},
-            "name": "test_time",
+            "name": "ihep_openstack_dashboard",
             "os-extended-volumes:volumes_attached": [],
             "progress": 0,
             "security_groups": [
@@ -3216,7 +4056,7 @@
             ],
             "status": "ACTIVE",
             "tenant_id": "chengzj",
-            "updated": "2015-11-25T13:10:40Z",
+            "updated": "2016-01-13T02:07:53Z",
             "user_id": "chengzj"
         },
         {
@@ -3498,76 +4338,6 @@
             "tenant_id": "xuq",
             "updated": "2015-11-23T12:00:52Z",
             "user_id": "xuq"
-        },
-        {
-            "OS-DCF:diskConfig": "MANUAL",
-            "OS-EXT-AZ:availability_zone": "nova",
-            "OS-EXT-SRV-ATTR:host": "pvm036.ihep.ac.cn",
-            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm036.ihep.ac.cn",
-            "OS-EXT-SRV-ATTR:instance_name": "instance-000005a8",
-            "OS-EXT-STS:power_state": 1,
-            "OS-EXT-STS:task_state": null,
-            "OS-EXT-STS:vm_state": "active",
-            "OS-SRV-USG:launched_at": "2015-11-23T09:34:30.000000",
-            "OS-SRV-USG:terminated_at": null,
-            "accessIPv4": "",
-            "accessIPv6": "",
-            "addresses": {
-                "UI-Net-Private": [
-                    {
-                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:6a:e3:04",
-                        "OS-EXT-IPS:type": "fixed",
-                        "addr": "192.168.82.115",
-                        "version": 4
-                    }
-                ]
-            },
-            "config_drive": "",
-            "created": "2015-11-23T09:31:53Z",
-            "flavor": {
-                "id": "03144859-50bf-4696-bcaa-48a6d82e320f",
-                "links": [
-                    {
-                        "href": "http://192.168.81.200:8774/admin/flavors/03144859-50bf-4696-bcaa-48a6d82e320f",
-                        "rel": "bookmark"
-                    }
-                ]
-            },
-            "hostId": "1e9f102235c33468331fbe915b954d46b91872bfa447562f5db0f8f5",
-            "id": "f649b0c5-4368-49f8-9f96-cd98299658bc",
-            "image": {
-                "id": "d8ad22ac-c801-45c3-8fb6-56b6fe52a1b8",
-                "links": [
-                    {
-                        "href": "http://192.168.81.200:8774/admin/images/d8ad22ac-c801-45c3-8fb6-56b6fe52a1b8",
-                        "rel": "bookmark"
-                    }
-                ]
-            },
-            "key_name": null,
-            "links": [
-                {
-                    "href": "http://192.168.81.200:8774/v2/admin/servers/f649b0c5-4368-49f8-9f96-cd98299658bc",
-                    "rel": "self"
-                },
-                {
-                    "href": "http://192.168.81.200:8774/admin/servers/f649b0c5-4368-49f8-9f96-cd98299658bc",
-                    "rel": "bookmark"
-                }
-            ],
-            "metadata": {},
-            "name": "ui-sl5",
-            "os-extended-volumes:volumes_attached": [],
-            "progress": 0,
-            "security_groups": [
-                {
-                    "name": "default"
-                }
-            ],
-            "status": "ACTIVE",
-            "tenant_id": "huqb",
-            "updated": "2015-11-23T09:34:30Z",
-            "user_id": "huqb"
         },
         {
             "OS-DCF:diskConfig": "MANUAL",
@@ -5243,76 +6013,6 @@
         {
             "OS-DCF:diskConfig": "MANUAL",
             "OS-EXT-AZ:availability_zone": "nova",
-            "OS-EXT-SRV-ATTR:host": "pvm205.ihep.ac.cn",
-            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm205.ihep.ac.cn",
-            "OS-EXT-SRV-ATTR:instance_name": "instance-0000052b",
-            "OS-EXT-STS:power_state": 1,
-            "OS-EXT-STS:task_state": null,
-            "OS-EXT-STS:vm_state": "active",
-            "OS-SRV-USG:launched_at": "2015-10-08T08:01:17.000000",
-            "OS-SRV-USG:terminated_at": null,
-            "accessIPv4": "",
-            "accessIPv6": "",
-            "addresses": {
-                "TEST-Net-Private": [
-                    {
-                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:ac:a2:51",
-                        "OS-EXT-IPS:type": "fixed",
-                        "addr": "192.168.83.55",
-                        "version": 4
-                    }
-                ]
-            },
-            "config_drive": "",
-            "created": "2015-10-08T07:59:36Z",
-            "flavor": {
-                "id": "03144859-50bf-4696-bcaa-48a6d82e320f",
-                "links": [
-                    {
-                        "href": "http://192.168.81.200:8774/admin/flavors/03144859-50bf-4696-bcaa-48a6d82e320f",
-                        "rel": "bookmark"
-                    }
-                ]
-            },
-            "hostId": "4ba8723c7ba46984104485575cc8451bb03b2f3d0584dd256212ab86",
-            "id": "6c2590c6-f770-4352-a943-5787d9518187",
-            "image": {
-                "id": "20490c13-9bd8-4c2c-b574-34d25a31595b",
-                "links": [
-                    {
-                        "href": "http://192.168.81.200:8774/admin/images/20490c13-9bd8-4c2c-b574-34d25a31595b",
-                        "rel": "bookmark"
-                    }
-                ]
-            },
-            "key_name": null,
-            "links": [
-                {
-                    "href": "http://192.168.81.200:8774/v2/admin/servers/6c2590c6-f770-4352-a943-5787d9518187",
-                    "rel": "self"
-                },
-                {
-                    "href": "http://192.168.81.200:8774/admin/servers/6c2590c6-f770-4352-a943-5787d9518187",
-                    "rel": "bookmark"
-                }
-            ],
-            "metadata": {},
-            "name": "v",
-            "os-extended-volumes:volumes_attached": [],
-            "progress": 0,
-            "security_groups": [
-                {
-                    "name": "default"
-                }
-            ],
-            "status": "ACTIVE",
-            "tenant_id": "lidengjie",
-            "updated": "2015-10-08T08:01:17Z",
-            "user_id": "lidengjie"
-        },
-        {
-            "OS-DCF:diskConfig": "MANUAL",
-            "OS-EXT-AZ:availability_zone": "nova",
             "OS-EXT-SRV-ATTR:host": "pvm032.ihep.ac.cn",
             "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm032.ihep.ac.cn",
             "OS-EXT-SRV-ATTR:instance_name": "instance-00000528",
@@ -6007,7 +6707,7 @@
             ],
             "status": "ACTIVE",
             "tenant_id": "lihaibo",
-            "updated": "2015-09-22T03:02:53Z",
+            "updated": "2016-01-07T08:17:50Z",
             "user_id": "lihaibo"
         },
         {
@@ -6907,7 +7607,7 @@
                 }
             ],
             "metadata": {},
-            "name": "test",
+            "name": "cloudfee.ihep.ac.cn",
             "os-extended-volumes:volumes_attached": [],
             "progress": 0,
             "security_groups": [
@@ -6917,7 +7617,7 @@
             ],
             "status": "ACTIVE",
             "tenant_id": "chengzj",
-            "updated": "2015-09-06T09:07:29Z",
+            "updated": "2016-01-13T02:06:17Z",
             "user_id": "chengzj"
         },
         {
@@ -8744,9 +9444,9 @@
             "OS-EXT-SRV-ATTR:host": "pvm207.ihep.ac.cn",
             "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm207.ihep.ac.cn",
             "OS-EXT-SRV-ATTR:instance_name": "instance-000003c6",
-            "OS-EXT-STS:power_state": 1,
+            "OS-EXT-STS:power_state": 4,
             "OS-EXT-STS:task_state": null,
-            "OS-EXT-STS:vm_state": "active",
+            "OS-EXT-STS:vm_state": "stopped",
             "OS-SRV-USG:launched_at": "2015-07-09T09:13:16.000000",
             "OS-SRV-USG:terminated_at": null,
             "accessIPv4": "",
@@ -8797,15 +9497,14 @@
             "metadata": {},
             "name": "summary",
             "os-extended-volumes:volumes_attached": [],
-            "progress": 0,
             "security_groups": [
                 {
                     "name": "default"
                 }
             ],
-            "status": "ACTIVE",
+            "status": "SHUTOFF",
             "tenant_id": "wanglu",
-            "updated": "2015-08-10T03:29:16Z",
+            "updated": "2016-01-12T09:20:34Z",
             "user_id": "wanglu"
         },
         {
@@ -15546,75 +16245,6 @@
             "tenant_id": "huangql",
             "updated": "2015-08-01T05:37:34Z",
             "user_id": "huangql"
-        },
-        {
-            "OS-DCF:diskConfig": "MANUAL",
-            "OS-EXT-AZ:availability_zone": "nova",
-            "OS-EXT-SRV-ATTR:host": "pvm201.ihep.ac.cn",
-            "OS-EXT-SRV-ATTR:hypervisor_hostname": "pvm201.ihep.ac.cn",
-            "OS-EXT-SRV-ATTR:instance_name": "instance-000001eb",
-            "OS-EXT-STS:power_state": 4,
-            "OS-EXT-STS:task_state": null,
-            "OS-EXT-STS:vm_state": "stopped",
-            "OS-SRV-USG:launched_at": "2014-12-19T02:13:15.000000",
-            "OS-SRV-USG:terminated_at": null,
-            "accessIPv4": "",
-            "accessIPv6": "",
-            "addresses": {
-                "TEST-Net-Private": [
-                    {
-                        "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:74:d3:c0",
-                        "OS-EXT-IPS:type": "fixed",
-                        "addr": "192.168.83.188",
-                        "version": 4
-                    }
-                ]
-            },
-            "config_drive": "",
-            "created": "2014-12-19T02:13:09Z",
-            "flavor": {
-                "id": "60ca0355-448f-4986-bfac-b9c5b3cb23a7",
-                "links": [
-                    {
-                        "href": "http://192.168.81.200:8774/admin/flavors/60ca0355-448f-4986-bfac-b9c5b3cb23a7",
-                        "rel": "bookmark"
-                    }
-                ]
-            },
-            "hostId": "a1013c1e371945840a195004aba75578665c947b855a2d1c51a318ac",
-            "id": "538def93-3231-4bf3-9a39-dca90296bc1d",
-            "image": {
-                "id": "890edf01-2908-48eb-86df-d8865e00a37a",
-                "links": [
-                    {
-                        "href": "http://192.168.81.200:8774/admin/images/890edf01-2908-48eb-86df-d8865e00a37a",
-                        "rel": "bookmark"
-                    }
-                ]
-            },
-            "key_name": null,
-            "links": [
-                {
-                    "href": "http://192.168.81.200:8774/v2/admin/servers/538def93-3231-4bf3-9a39-dca90296bc1d",
-                    "rel": "self"
-                },
-                {
-                    "href": "http://192.168.81.200:8774/admin/servers/538def93-3231-4bf3-9a39-dca90296bc1d",
-                    "rel": "bookmark"
-                }
-            ],
-            "metadata": {},
-            "name": "CST",
-            "os-extended-volumes:volumes_attached": [],
-            "security_groups": [
-                {
-                    "name": "default"
-                }
-            ],
-            "status": "SHUTOFF",
-            "tenant_id": "liul",
-            "updated": "2015-08-01T05:37:34Z",
-            "user_id": "liul"
         },
         {
             "OS-DCF:diskConfig": "AUTO",

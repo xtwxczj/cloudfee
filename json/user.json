@@ -23358,6 +23358,125 @@
             "id": "lih",
             "name": "lih",
             "username": "lih"
+        },
+        {
+            "email": "pitka@kph.uni-mainz.de",
+            "enabled": true,
+            "id": "pitka",
+            "name": "pitka",
+            "username": "pitka"
+        },
+        {
+            "email": "huangyp@ihep.ac.cn",
+            "enabled": true,
+            "id": "huangyp",
+            "name": "huangyp",
+            "username": "huangyp"
+        },
+        {
+            "email": "shigeki.fukuda@kek.jp",
+            "enabled": true,
+            "id": "shigeki.fukuda",
+            "name": "shigeki.fukuda",
+            "username": "shigeki.fukuda"
+        },
+        {
+            "email": "quanpy@ihep.ac.cn",
+            "enabled": true,
+            "id": "quanpy",
+            "name": "quanpy",
+            "username": "quanpy"
+        },
+        {
+            "email": "quanzheng@ihep.ac.cn",
+            "enabled": true,
+            "id": "quanzheng",
+            "name": "quanzheng",
+            "username": "quanzheng"
+        },
+        {
+            "email": "s.v.sinyatkin@inp.nsk.su",
+            "enabled": true,
+            "id": "s.v.sinyatkin",
+            "name": "s.v.sinyatkin",
+            "username": "s.v.sinyatkin"
+        },
+        {
+            "email": "zhouwei@ihep.ac.cn",
+            "enabled": true,
+            "id": "zhouwei",
+            "name": "zhouwei",
+            "username": "zhouwei"
+        },
+        {
+            "email": "gaohe@ihep.ac.cn",
+            "enabled": true,
+            "id": "gaohe",
+            "name": "gaohe",
+            "username": "gaohe"
+        },
+        {
+            "email": "huangmy@ihep.ac.cn",
+            "enabled": true,
+            "id": "huangmy",
+            "name": "huangmy",
+            "username": "huangmy"
+        },
+        {
+            "email": "a.v.bogomyagkov@inp.nsk.su",
+            "enabled": true,
+            "id": "a.v.bogomyagkov",
+            "name": "a.v.bogomyagkov",
+            "username": "a.v.bogomyagkov"
+        },
+        {
+            "email": "anzh@ihep.ac.cn",
+            "enabled": true,
+            "id": "anzh",
+            "name": "anzh",
+            "username": "anzh"
+        },
+        {
+            "email": "zhangy@ihep.ac.cn",
+            "enabled": true,
+            "id": "zhangy",
+            "name": "zhangy",
+            "username": "zhangy"
+        },
+        {
+            "email": "yifucai@ustc.edu.cn",
+            "enabled": true,
+            "id": "yifucai",
+            "name": "yifucai",
+            "username": "yifucai"
+        },
+        {
+            "email": "zhangmj@ihep.ac.cn",
+            "enabled": true,
+            "id": "zhangmj",
+            "name": "zhangmj",
+            "username": "zhangmj"
+        },
+        {
+            "email": "sungj@ihep.ac.cn",
+            "enabled": true,
+            "id": "sungj",
+            "name": "sungj",
+            "username": "sungj"
+        },
+        {
+            "email": "luot@ihep.ac.cn",
+            "enabled": true,
+            "id": "luot114",
+            "name": "luot114",
+            "username": "luot114"
+        },
+        {
+            "email": "ali82taani@gmail.com",
+            "enabled": true,
+            "id": "ali82taani",
+            "name": "ali82taani",
+            "username": "ali82taani"
         }
     ]
 }

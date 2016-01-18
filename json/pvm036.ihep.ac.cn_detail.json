@@ -47,11 +47,11 @@
         },
         {
             "resource": {
-                "cpu": 1,
-                "disk_gb": 40,
+                "cpu": 2,
+                "disk_gb": 80,
                 "host": "pvm036.ihep.ac.cn",
-                "memory_mb": 4096,
-                "project": "chengzj"
+                "memory_mb": 8192,
+                "project": "huqb"
             }
         },
         {
@@ -65,11 +65,11 @@
         },
         {
             "resource": {
-                "cpu": 2,
-                "disk_gb": 80,
+                "cpu": 1,
+                "disk_gb": 40,
                 "host": "pvm036.ihep.ac.cn",
-                "memory_mb": 8192,
-                "project": "huqb"
+                "memory_mb": 4096,
+                "project": "chengzj"
             }
         },
         {
